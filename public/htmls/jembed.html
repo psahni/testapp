@@ -1,0 +1,34 @@
+<html>
+ <head>
+ 	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+ </head>
+ <body>
+ 	<input id="myinput" type="text" size='30'/> 	
+ </body>
+ <script>
+ 
+ 	function addEvent( obj, type, fn ) {
+
+  if ( obj.attachEvent ) {
+
+    obj['e'+type+fn] = fn;
+
+    obj[type+fn] = function(){obj['e'+type+fn]( window.event );}
+
+    obj.attachEvent( 'on'+type, obj[type+fn] );
+
+  } else
+
+    obj.addEventListener( type, fn, false );
+
+}
+
+
+ 	addEvent(document.getElementById('myinput'), 'paste', function(event) {
+
+		console.log('You pasted some text');
+
+	});
+
+ </script>
+</html>
