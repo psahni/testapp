@@ -9,7 +9,6 @@
 This application has some dangerous code
 
 
-************************
 
 
 ************************
