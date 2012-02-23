@@ -5,6 +5,7 @@ TestingApp::Application.routes.draw do
   resources :testing do
    collection do
     get 'test' 
+    get 'embed'
    end
   end
   # The priority is based upon order of creation:

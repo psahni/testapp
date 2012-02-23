@@ -6,4 +6,9 @@ class TestingController < ApplicationController
   def test
    render :partial => 'test', :status => 200
   end
+  
+  def embedd
+  
+  end
+  
 end

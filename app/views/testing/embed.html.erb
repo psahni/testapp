@@ -1,0 +1,102 @@
+<style>
+ div.youtube{
+  width: 500px;
+  height: 200px;
+ }
+</style>
+
+<div class='youtube'>
+ <iframe src='http://youtube.com/embed/YR12Z8f1Dh8?version=3&enablejsapi=1' width='500' height='200'>
+ </iframe>
+ <button onclick='insertImage()'>Click here to fetch image</button>
+ <div id='image_section'>
+  
+ </div>
+</div>
+<script>
+
+function insertImage(){
+   var element = document.getElementById('image_section');
+   element.innerHTML = 'Fetching....'
+   element.innerHTML = '<img ' + 'src=' + 'http://img.youtube.com/vi/YR12Z8f1Dh8/1.jpg' + "></img>"
+ }
+</script>
+
+
+
+
+
+<!--
+<script>
+ function onYouTubePlayerReady(playerId) {
+      alert('TEST')
+    }
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>    
+
+<div id="ytapiplayer">
+ You need Flash player 8+ and JavaScript enabled to view this video.
+</div>
+
+<script type="text/javascript">
+
+ var params = { allowScriptAccess: "always" };
+ var atts = { id: "myytplayer" };
+ swfobject.embedSWF("http://www.youtube.com/v/YR12Z8f1Dh8?enablejsapi=1&playerapiid=ytplayer&version=3",
+                    "ytapiplayer", "425", "356", "8", null, null, params, atts);
+
+</script>
+-->
+<!--
+ PHP SCRIPT
+-->
+
+<!--
+
+   function parse_youtube_url($url,$return='embed',$width='',$height='',$rel=0){
+  $urls = parse_url($url);
+  //expect url is http://youtu.be/abcd, where abcd is video iD
+  if($urls['host'] == 'youtu.be'){
+  $id = ltrim($urls['path'],'/');
+  }
+  //expect  url is http://www.youtube.com/embed/abcd
+  else if(strpos($urls['path'],'embed') == 1){
+  $id = end(explode('/',$urls['path']));
+  }
+  //expect url is abcd only
+  else if(strpos($url,'/')===false){
+  $id = $url;
+  }
+  //expect url is http://www.youtube.com/watch?v=abcd
+  else{
+  parse_str($urls['query']);
+  $id = $v;
+  }
+  //return embed iframe
+  if($return == 'embed'){
+  return '<iframe width="'.($width?$width:560).'" height="'.($height?$height:349).'" src="http://www.youtube.com/embed/'.$id.'?rel='.$rel.'" frameborder="0" allowfullscreen>';
+  }
+  //return normal thumb
+  else if($return == 'thumb'){
+  return 'http://i1.ytimg.com/vi/'.$id.'/default.jpg';
+  }
+  //return hqthumb
+  else if($return == 'hqthumb'){
+  return 'http://i1.ytimg.com/vi/'.$id.'/hqdefault.jpg';
+  }
+  // else return id
+  else{
+  return $id;
+  }
+  }
+  ?>
+-->
+
+<!--
+ OTHER IMP RESOURCES
+-->
+<!--
+http://code.google.com/apis/youtube/iframe_api_reference.html [ Iframe api with example]
+http://code.google.com/apis/youtube/js_api_reference.html#loadPlaylist [ js api ]
+-->
