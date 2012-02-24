@@ -1,34 +1,87 @@
 <html>
  <head>
  	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+ 	<script src='../jquery.oembed/jquery.oembed.js'></script>
+ 	<style>
+   .oembed-container iframe{
+    width: 200px;
+    height: 200px;
+   }
+ 	</style>
  </head>
  <body>
- 	<input id="myinput" type="text" size='30'/> 	
- </body>
- <script>
+
  
+ <script type="text/javascript">
+  
+  function addWModeParameter(oembedData) {	
+	 alert('hh')	
+	}
+	 var embed =  function(){
+	  $(".oembed").oembed(null, {maxWidth: 100, maxHeight: 100, embedMethod: 'append', afterEmbed: addWModeParameter()});
+	 }
+	 
+	 $(function(){
+	  embed();
+	 })
+</script>
+<div><a class="oembed" href='http://vimeo.com/37102493'>Vimeo Video</a></div>
+
+<button onclick='embed()'>Embed</button>
+  
+<div id='embed' style='display:none;'> 
+ 
+</div>
+ </body>
+
+<!--   
  	function addEvent( obj, type, fn ) {
-
-  if ( obj.attachEvent ) {
-
-    obj['e'+type+fn] = fn;
-
-    obj[type+fn] = function(){obj['e'+type+fn]( window.event );}
-
-    obj.attachEvent( 'on'+type, obj[type+fn] );
-
-  } else
-
-    obj.addEventListener( type, fn, false );
-
-}
-
-
+   if ( obj.attachEvent ) {
+     obj['e'+type+fn] = fn;
+     obj[type+fn] = function(){obj['e'+type+fn]( window.event );}
+     obj.attachEvent( 'on'+type, obj[type+fn] );
+   } else
+     obj.addEventListener( type, fn, false );
+  }
  	addEvent(document.getElementById('myinput'), 'paste', function(event) {
-
 		console.log('You pasted some text');
-
+		setTimeout(function() {
+   var text = event.target.value;
+   console.log(text);
+   console.log($('#myinput').val()) 
+        }, 100);
 	});
-
- </script>
+  Paste some text here
+ 	<input id="myinput" type="text" size='30'/> 	<br/>
+ 	embed area
+ 	paste some url here
+ 	<input type="text" id="olink"/>
+  <div id="oembed"></div>
+ <script type="text/javascript">
+  $(document).ready(function() {
+    $("#olink").blur(function (){
+      if($(this).val().match(/^http:/)){
+         olink = $("#olink").val();
+         alert('url')
+         $("#oembed").oembed(olink);
+      }
+    	 else{
+    	  alert('not url')
+    	 }
+   })
+  });
+</script>-->
 </html>
+<!--
+ $("#editor").live('input paste',function(e){
+    if(e.target.id == 'editor') {
+        $('<textarea></textarea>').attr('id', 'paste').appendTo('#editMode');
+        $("#paste").focus();
+        setTimeout($(this).paste, 250);
+    }
+});
+-->
+<!--
+	https://github.com/rchamorro/jquery-oembed
+	https://github.com/starfishmod/jquery-oembed-all
+-->
