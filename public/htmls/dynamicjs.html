@@ -1,7 +1,7 @@
 <html>
  <head>
   <script>
-  function() loadHelper(){
+  function loadHelper(){
     var head    = document.getElementsByTagName('head')[0];
     var script  = document.createElement('script');
     script.type = 'text/javascript';
@@ -18,13 +18,15 @@
   <script>
 //   console.log('-> Hello...') // This called first
   </script>
-  
+  <button onClick='loadHelper()'>load js dynamically</button>
+  <div id='dynamic'> Initial text</div>
  </body>
 </html>
 
 
 <!--
   ON READY STATE CHANGE CODE
+  http://unixpapa.com/js/dyna.html
 -->
 
 <!--

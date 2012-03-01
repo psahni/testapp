@@ -1,4 +1,5 @@
 function helper(){
- console.log('=> I am inside  helper...')
+ document.getElementById('dynamic').innerHTML = 'Dynamic script loaded'
 }
-console.log('-->helper')
+
+//console.log('-->helper')
