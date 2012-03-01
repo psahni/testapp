@@ -1,0 +1,29 @@
+<html>
+ 
+ <head>
+   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+ </head>
+  
+ <body>
+   <ul id='xml'>
+    Loading....
+   </ul> 
+ </body>
+
+ <script>
+   var items = [];
+  
+   $.get('http://api.flickr.com/services/feeds/photos_public.gne?id=76830659@N05&lang=en-us&format=json&jsoncallback=?', function(data){
+   
+   
+    $.each(data.items, function(key, val) {
+     items.push('<li>' + '<img' + " src='" +  val.media.m + "'/>" + '</li>');
+    });
+    
+    $('#xml').html(items.join(''))
+   
+   }, 'jsonp');
+  
+ 
+ </script>
+</html>
