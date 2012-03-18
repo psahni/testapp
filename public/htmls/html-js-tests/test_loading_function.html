@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script type='text/javascript' src='jquery.js'></script>	
+	</head>
+	<body>
+		<script>
+			function testsimple(){
+				alert("==> inside simple function")
+			}
+			$(function(){
+				function testjquery(){
+					alert('==> Jquery function')
+				}							
+					testjquery();
+								testsimple();
+
+	
+			});
+			window.onload = function(){
+							alert('window onload')
+							testsimple();
+			
+			}
+//			testsimple();
+		</script>		
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+ <head>
+ <style>
+  div.body{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #F2F2F2;
+    overflow: auto;
+  }
+  </style>
+  <script>
+    var sendGmail = function(opts){
+    var str = 'http://mail.google.com/mail/?view=cm&fs=1'+
+              '&to=' + opts.to +
+              '&su=' + opts.subject +
+              '&body=' + opts.message.replace(/\n/g,'%0A') +
+              '&ui=1';
+    location.href = str;
+  }
+  
+  send
+    sendGmail({
+      to: 'user@server.com',
+      subject: 'hi',
+      message: 'This is a large message with \n'+
+               'more than two lines \n'+
+               'and goes on and on and on'
+  });
+  </script>
+ </head>
+ <body>
+  <div class='body'>
+    Some text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text ome text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text ome text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text ome text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text ome text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text 
+    ome text Some textSome text Some text   Some textSome textSome textSome textSome textSome textSome text
+    Some textSome text
+  </div>
+ </body>
+</html>

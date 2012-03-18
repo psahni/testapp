@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" charset="utf-8"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    
+    <form>
+        <input type="button" id="shorten" value="click me" />
+    </form>
+    
+    <script type="text/javascript">
+         (function() {
+            var api_key = null,
+                api_login = null,
+                api_url = null;
+
+            function shorten(url, callback) {
+                $.getJSON("http://"+api_url+"/v3/shorten?longUrl="+encodeURIComponent(url)+"&login="+api_login+"&apiKey="+api_key+"&callback=?", callback);
+            }
+             $(function() {
+                shorten("http://prashantsahni.in", function(response) { console.log(response); });
+             });      
+         })();
+    </script>
+    
+</body>
+
+</html>
