@@ -1,0 +1,18 @@
+1.9.2p290 :033 > Article.find_by_sql('Select count(articles.id) as count, users.* as u  from articles RIGHT OUTER JOIN users ON users.id = articles.user_id Group By articles.user_id having count(articles.id) > 0')
+  Article Load (1.0ms)  Select count(articles.id) as count, users.* as u from articles RIGHT OUTER JOIN users ON users.id = articles.user_id Group By articles.user_id having count(articles.id) > 0
+ => [#<Article id: 13, created_at: "2012-03-19 06:19:42", updated_at: "2012-03-19 06:19:42">, #<Article id: 14, created_at: "2012-03-19 06:19:42", updated_at: "2012-03-19 06:19:42">, #<Article id: 15, created_at: "2012-03-19 06:19:42", updated_at: "2012-03-19 06:19:42">] 
+1.9.2p290 :034 > Article.find_by_sql('Select count(articles.id) as count, users.* as u  from articles RIGHT OUTER JOIN users ON users.id = articles.user_id Group By articles.user_id having count(articles.id) > 0').collect(&:count)
+  Article Load (0.4ms)  Select count(articles.id) as count, users.* as u from articles RIGHT OUTER JOIN users ON users.id = articles.user_id Group By articles.user_id having count(articles.id) > 0
+ => [2, 1, 1] 
+
+
+
+    ACTIVE RECORD WAY
+
+ User.find(:all, :joins => "LEFT OUTER JOIN articles ON articles.user_id = users.id", 
+                 :select => "users.*,count(articles.id) as article_count", 
+                 :group => "users.id")
+                 
+                 
+User.find(:all, :joins => "LEFT OUTER JOIN articles ON articles.user_id = users.id", :select => "users.*,count(articles.id) as article_count", :group => "users.id", :having => "count(articles.id) > 0").collect(&:article_count)                 
+
