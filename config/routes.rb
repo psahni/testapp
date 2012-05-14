@@ -8,6 +8,13 @@ TestingApp::Application.routes.draw do
     get 'embed'
    end
   end
+  
+  #PATH PREFIX
+  # config/routes.rb
+  scope "/:locale" do
+    resources :books
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
