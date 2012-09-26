@@ -1,2 +1,11 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+##Amazon settings - aws.yml
+development:
+    access_key_id: REPLACE_WITH_ACCESS_KEY_ID
+    secret_access_key: REPLACE_WITH_SECRET_ACCESS_KEY
+
+test:
+    <<: *development
+
+production:
+    <<: *development
+
