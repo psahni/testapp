@@ -1,24 +1,26 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.1'
-
+gem 'rails', '3.2.0'
+gem 'rake'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+#gem 'mysql2'
 
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.1.4'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
-end
+#group :assets do
+#  gem 'sass-rails',   '~> 3.1.4'
+#  gem 'coffee-rails', '~> 3.1.1'
+#  gem 'uglifier', '>= 1.0.3'
+#end
 
-gem 'jquery-rails'
-gem 'wirble'
-gem 'aws-sdk'
+#gem 'jquery-rails'
+
+#gem 'wirble'
+
+#gem 'aws-sdk'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -31,13 +33,18 @@ gem 'aws-sdk'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
+#group :test do
   # Pretty printed test output
-  gem 'turn', :require => false
-end
+ # gem 'turn', :require => false
+#end
+
+#gem 'execjs'
+#gem 'therubyracer'
 
 ## Background Jobs
 gem 'resque', :require => "resque/server"
 
 gem 'execjs'
 gem 'therubyracer'
+#http://patshaughnessy.net/2011/9/24/how-does-bundler-bundle 
+#http://robots.thoughtbot.com/post/2729333530/fetching-source-index-for-http-rubygems-org
