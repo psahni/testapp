@@ -36,5 +36,8 @@ group :test do
   gem 'turn', :require => false
 end
 
+## Background Jobs
+gem 'resque', :require => "resque/server"
+
 gem 'execjs'
 gem 'therubyracer'
