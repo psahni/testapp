@@ -17,16 +17,16 @@ ActiveRecord::Schema.define(:version => 20121020072243) do
     t.string   "title"
     t.string   "body"
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.integer  "media_id"
   end
 
   create_table "media", :force => true do |t|
     t.string   "title"
     t.integer  "type_of_media"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "snippets", :force => true do |t|
@@ -34,15 +34,15 @@ ActiveRecord::Schema.define(:version => 20121020072243) do
     t.string   "language"
     t.text     "plain_code"
     t.text     "highlighted_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "users", :force => true do |t|
     t.string   "email"
     t.string   "username"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

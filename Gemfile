@@ -1,12 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.0'
-gem 'rake'
+gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
-#gem 'mysql2'
-
+gem "jquery-rails"
+gem 'mysql2'
+#gem 'coffee-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,7 +18,6 @@ gem 'rake'
 #gem 'jquery-rails'
 
 #gem 'wirble'
-
 #gem 'aws-sdk'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -46,5 +44,12 @@ gem 'resque', :require => "resque/server"
 
 gem 'execjs'
 gem 'therubyracer'
-#http://patshaughnessy.net/2011/9/24/how-does-bundler-bundle 
+#http://patshaughnessy.net/2011/9/24/how-does-bundler-bundle
 #http://robots.thoughtbot.com/post/2729333530/fetching-source-index-for-http-rubygems-org
+
+##Mysql2 error
+#sudo apt-get install libmysqlclient-dev libmysql-ruby1.9 ruby1.9.1-dev
+#rvmsudo apt-get install libmysql-ruby libmysqlclient-dev
+
+#JqueryUjs
+#https://github.com/rails/jquery-ujs/wiki/External-articles
