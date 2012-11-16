@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    *{
+      margin: 10;
+    }
+    button{
+      color: green;
+    }
+  </style>
+  <meta charset="utf-8">
+  <title>hello-backbonejs</title>
+</head>
+<body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+
+  <script>
+  
+    //Make a Model
+    jQuery(function($){
+      
+      var Item = Backbone.Model.extend({
+        defaults: {
+          first_name: "Prashant",
+          last_name: "Sahni"
+        }
+      });
+      
+      //Make a Collection
+      var List = Backbone.Collection.extend({
+        model: Item            
+      });
+
+      
+      // Make a ListView      
+      var ListView = Backbone.View.extend({
+          el: $("body"), 
+          events: {
+             'click button#play': 'startPlaying'
+          },
+          initialize: function(){
+             _.bindAll(this, 'render', 'startPlaying');
+             this.collection = new List();
+             this.render();
+          },
+          render: function(){
+            $(this.el).append("<button id='play'>Play</button>");
+          },
+          startPlaying: function(){
+            var newitem =  new Item({first_name: "Sachin", last_name: "Tendulkar"});
+            this.collection.add(newitem);
+            $(this.el).append("<h2>" + newitem.get('first_name') + " " + newitem.get('last_name'));
+          }
+      });
+      
+      view  = new ListView();
+    });
+    
+  </script>
+</body>

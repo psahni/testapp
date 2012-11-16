@@ -1,0 +1,37 @@
+<html>
+	<head>
+
+		  <script type="text/javascript" src="/lib/jquery.js"></script>
+      <script type="text/javascript" src="/lib/json2.js"></script>
+      <script type="text/javascript" src="/lib/underscore.js"></script>
+      <script type="text/javascript" src="/lib/backbone.js"></script>
+	
+	</head>
+	<body>
+    <script type="text/javascript">
+      Person  = Backbone.Model.extend({
+          initialize: function(){
+            this.bind("change:name", function(){
+              console.log(this.name + " is the new value of the name")
+            });
+            this.bind("error", function(model, error){
+              console.log(error);
+            });
+          },
+          defaults: function(){
+            name: "Bob",
+            height: "5 feet 11 inches"
+          },
+          validate: function(attributes){
+              if(attributes.name == "Joe" ){
+                return "Oh Oh your name is Joe";              
+              }
+          }
+      });
+      
+      person = new Person();
+      person.set({name: "Joe", height: "7 feets"});
+      console.log( person.toJSON());
+    </script>
+	</body>
+</html>

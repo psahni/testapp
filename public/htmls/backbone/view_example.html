@@ -1,0 +1,71 @@
+<html>
+	<head>
+
+		  <script type="text/javascript" src="/lib/jquery.js"></script>
+      <script type="text/javascript" src="/lib/json2.js"></script>
+      <script type="text/javascript" src="/lib/underscore.js"></script>
+      <script type="text/javascript" src="/lib/backbone.js"></script>
+	
+	</head>
+	<body>
+	  <script>
+	  (function($){
+	    var ListView = Backbone.View.extend({
+	      
+	      el: $("body"), 
+	    
+	      initialize: function(){
+	        _.bindAll(this, 'render');
+	        this.render();
+	      },
+	    
+	      render: function(){
+          $(this.el).append("<ul><li>"+ "Hello World" + "</li></ul>" );
+	      }
+	    
+	      
+	    });
+	    
+	    var listView = new ListView();
+	    
+	  })(jQuery);  
+	  
+	  /*
+	  
+	    <div id='container'>
+	      <button>Load</button>
+	      <ul id='list'>
+	      </ul>
+	    </div>
+	    <div id='list-template'>
+	      <li>
+	        <a href=''></a>
+	      </li>
+	    </div>
+	  
+	    model = Backbone.Model.extend({
+	      data: [{text: 'Google', href: 'http://google.com'}, {text: "Facebook", href: "http://facebook.com"}]
+	    });
+	    
+	    var View = Backbone.View.extend({
+	    
+	      initialize: function(){
+          this.template = $('#list-template').children()	;
+	      },
+	      el: "#container",
+	      events: {
+	        "click button" : "render"
+	      },
+	      render: function(){
+	        var data = this.model.get('data');
+	        for(i=0, l=data.length; i< l; i++){
+	          var li = this.template.clone().find('a').attr('href', data[i].href).text(data[i].text).end();
+	          this.$el.find('ul').append(li)
+	        }
+	      }
+	    })
+	    var view = new View({ model: model });
+	  */
+	 </script>
+	</body>
+</html>
