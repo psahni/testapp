@@ -1,0 +1,17 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <a onclick="xopen()" href="javascript:void(0)">Click Here</a>
+    
+    <script>
+      function xopen(){
+        width = screen.width/2;
+        height = screen.height/2;
+        window.open("http://google.com",null,"status=1,toolbar=no,menubar=no,top=150,left=200,width="+width+",height="+height);
+        window.moveTo(width,height);
+        //window.resizeTo(screen.width,screen.height-100);
+      }
+    </script>
+  </body>
+</html>
