@@ -1,0 +1,50 @@
+<html>
+ <head>
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+ </head>
+ <body>
+    <div id='test'>
+     <p>
+      He thrusts his fists
+      Against the posts
+      And still insists
+      He sees the ghosts.
+     </p>
+
+    <button>
+        Add
+    </button>
+  </div>
+   <script type="text/javascript">
+     $(function(){
+        /*$('p').click(function(e){
+           console.log(e.target);
+        });*/
+        
+        $('body').delegate("p","click", function(e){
+          console.log(e.target);            
+        }) ;
+        
+        /* We do not need live function in this manner*/
+     
+       $('button').click(function(){
+        $('<p/>').html("New Paragraph").appendTo("body");
+       })
+       
+     });
+     
+    
+   </script>
+  
+ </body>
+</html>
+<!-- 
+  - http://brandonaaron.net/blog/2010/03/4/event-delegation-with-jquery
+  
+  - Event delegation: .live(), .delegate(),
+  
+  - We bind the event only to the parent
+  
+  
+  
+-->
