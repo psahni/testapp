@@ -1,5 +1,6 @@
 TestingApp::Application.routes.draw do
 
+
   root :to => 'testing#index'
   
   resources :testing do
@@ -8,7 +9,8 @@ TestingApp::Application.routes.draw do
     get 'embed'
    end
   end
-
+  
+  resources :messages
   resources :snippets 
   
   mount Resque::Server, :at => "/resque"

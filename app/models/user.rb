@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   has_many :borrows
   has_many :books, through:  :borrows
   has_many :categories_of_books, through: :books,  source:  :category
-  
+  has_many :messages  
   
   def suggested_books
     Book.where("category_id IN (?) AND id NOT IN (?)",  self.categories_of_books(:include => :books), self.books)

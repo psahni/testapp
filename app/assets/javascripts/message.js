@@ -1,0 +1,13 @@
+//= require jquery
+//= require jquery_ujs
+//= require ./backbone/underscore
+//= require ./backbone/backbone
+//= require ./backbone/json2
+//= require_tree ../templates
+//= require_tree ./models
+//= require_tree ./collections
+//= require_tree ./views
+//= require_tree ./routers
+//= require init
+
+
