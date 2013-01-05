@@ -11,11 +11,16 @@
 </head>
 <body>
 
-<%= yield %>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-  {parsetags: 'explicit'}
-</script>
+<nav>
+  <ul>
+    <li><a href="/messages">Messages</a></li>
+  </ul>
+</nav>
 
+  <%= yield %>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+    {parsetags: 'explicit'}
+  </script>
 
 </body>
 </html>

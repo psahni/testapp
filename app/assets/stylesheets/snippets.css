@@ -11,6 +11,9 @@ a img {
 a {
   color: #0000FF;
 }
+a:hover{
+    cursor: pointer;
+}
 
 .clear {
   clear: both;
@@ -18,7 +21,7 @@ a {
   overflow: hidden;
 }
 
-#container {
+#container, .container {
   width: 75%;
   margin: 0 auto;
   background-color: #FFF;
@@ -82,4 +85,17 @@ a {
 .code_block pre {
   margin: 10px 10px;
   font-family: 'Menlo', 'Courier New', 'Terminal', monospace;
+}
+
+.field{
+    margin: 10px 0px 0px 2px;
+}
+.field label{
+    width: 100px;
+    float: left;
+}
+
+.field input{
+    width: 400px;   
+    font-size: 18px;
 }

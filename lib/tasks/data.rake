@@ -27,8 +27,14 @@ namespace :db do
     u2.articles.create(:title => "test article", :body => "Lorem Spam Mane Lorem Spam Mane Lorem Spam ManeLorem Spam Mane Lorem Spam Mane Lorem Spam Mane")
     
     u3.articles.create(:title => " test 2 article", :body => "Lorem Spam Mane Lorem Spam Mane Lorem Spam ManeLorem Spam Mane Lorem Spam Mane Lorem Spam Mane")
+
+    puts "==> Creating Messages"   
+    u1.messages.create(:subject => "Impact of Social Media On People", :body => "The social media these days has a great impact onto the minds of the yound people. They are very much influenced by the content floating across the channels.")
     
+    u1.messages.create(:subject => "Corruption is the root cause of all the problemns", :body => "People of india are surrounded by lot of problems in their daily lives. People have learnt to live with these problems.") 
   end
+  
+  
   
    
 end
