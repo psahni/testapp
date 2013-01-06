@@ -26,13 +26,18 @@ $(function($) {
 	   edit: function(id){
 	     console.log("== Edit Action id: " + id);
 	     window.Message.listing_area.hide();
+	     var obj = window.message_collection.get(id);
+	     console.log(obj)
 	     window.Message.edit_area.show();
-	     Message.messages.forEach(function(obj, index){
+	     var edit_message_view = new window.Message.MessageEdit({ model: obj });
+	     edit_message_view.render();
+	     /* Not the right way
+	      Message.messages.forEach(function(obj, index){
 	         if( obj.id == id ){
 	          var edit_message_view = new window.Message.MessageEdit({ model: obj });
 	           edit_message_view.render();
 	         }
-	     })
+	     })*/
 	   }
 	    
 	});

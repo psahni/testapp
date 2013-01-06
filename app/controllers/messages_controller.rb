@@ -15,4 +15,11 @@ class MessagesController < ApplicationController
 
   def show
   end
+  
+  def update
+    message = Message.find(params[:id])
+    message.update_attributes(params[:message])
+    respond_with message
+  end
+  
 end
