@@ -7,4 +7,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require testing_app
-
+//= require ./backbone/underscore
+//= require ./backbone/backbone
+//= require ./backbone/json2
+//= require_tree ./templates
