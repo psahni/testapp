@@ -8,7 +8,10 @@ class TestingController < ApplicationController
   end
   
   def embedd
+  end
   
+  def fbtesting
+    
   end
   
 end

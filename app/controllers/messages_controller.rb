@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
   
   
-  respond_to :json
+  respond_to :json, :html
     
   def index
     respond_to do |format|
@@ -14,6 +14,11 @@ class MessagesController < ApplicationController
   end
 
   def show
+  end
+  
+  def edit
+    @message = Message.find_by_id(params[:id])
+    respond_with @message
   end
   
   def update

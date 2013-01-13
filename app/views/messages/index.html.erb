@@ -1,6 +1,7 @@
 <%= content_tag :div, 'Loading...', id:'container', style:"display:none", 
-    data: {messages:Message.all, listing_area: 'message_app', edit_area: 'edit_area'} %>
-<div class="container" id="message_app">
+    data: {messages:Message.all, listing_area: 'listing_area', edit_area: 'edit_area'} %>
+
+<div class="container" id="listing_area">
     <div class="title">
         <h1>Listing Messages</h1>
     </div>
