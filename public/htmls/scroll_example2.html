@@ -1,0 +1,31 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="/assets/scroll_to.js"></script>
+
+
+<div id="div1" style="height: 1000px; width 100px">
+  test
+</div>
+<br/>
+
+<div id="div2" style="height: 1000px; width 100px">
+  test 2
+</div>
+<!--
+  WHEN YOU CLICK ON THE BUTTON IT WILL SCROLL TO DIV 1 AREA
+-->
+<button id="click" scroll="div">click me</button>
+</html>
+
+<script type="text/javascript">
+   $('#click').click(function(e) {
+      e.preventDefault();
+      var href;
+      to = $(this).attr('scroll');
+      return $.scrollTo(to, 500);
+      /*return $(this).click(function(e) {
+        e.preventDefault();
+        return $.scrollTo(to, 500);
+      });*/
+    });
+</script>

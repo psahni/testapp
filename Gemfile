@@ -28,7 +28,11 @@ gem 'therubyracer'
 gem 'backbone-on-rails'
 
 
+######################################################################################
 
+# gem "squeel" #https://github.com/ernie/squeel #Active Record queries
+# gem 'virtus' #https://github.com/solnic/virtus # Useful for virtuous attributes
+# gem "meta_search" #https://github.com/ernie/meta_search # 
 #http://patshaughnessy.net/2011/9/24/how-does-bundler-bundle
 #http://robots.thoughtbot.com/post/2729333530/fetching-source-index-for-http-rubygems-org
 
@@ -37,3 +41,5 @@ gem 'backbone-on-rails'
 #rvmsudo apt-get install libmysql-ruby libmysqlclient-dev
 #JqueryUjs
 #https://github.com/rails/jquery-ujs/wiki/External-articles
+
+######################################################################################

@@ -11,3 +11,4 @@
 //= require ./backbone/backbone
 //= require ./backbone/json2
 //= require_tree ./templates
+//= require scroll_to

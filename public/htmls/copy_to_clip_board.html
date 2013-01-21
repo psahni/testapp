@@ -1,0 +1,25 @@
+<!--
+
+See examples:
+
+http://cssround.com/
+
+http://cssround.com/ZeroClipboard.js script
+
+function all_clipboard(){
+  
+    var clip = new ZeroClipboard.Client();
+    clip.setText( '' );
+    clip.setHandCursor( true );
+    clip.setCSSEffects( true );
+    clip.addEventListener( 'load', function(client) {} );
+    clip.addEventListener( 'complete', function(client, text) {alert("Copied text to clipboard : " + text );} );
+    clip.addEventListener( 'mouseOver', function(client) {          } );
+    clip.addEventListener( 'mouseOut', function(client) {         } );
+    clip.addEventListener( 'mouseDown', function(client) { clip.setText( document.getElementById('preview_area').value );} );
+    clip.addEventListener( 'mouseUp', function(client) {         } );
+    clip.glue( 'd_clip_button' );
+  }
+  setTimeout("all_clipboard()",3000);
+// preview area is the id of the text area
+-->
