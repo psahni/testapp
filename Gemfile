@@ -28,6 +28,8 @@ gem 'therubyracer'
 gem 'backbone-on-rails'
 
 
+gem 'passenger'
+
 ######################################################################################
 
 # gem "squeel" #https://github.com/ernie/squeel #Active Record queries

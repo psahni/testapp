@@ -21,7 +21,7 @@ politics  = Category.find_by_name("Politics")
 
 book1 = Book.create(:name => "Data Structure", :category_id => cs.id )
 puts "==> Data Structure Created"
-book2 = Book.create(:name => "Revolution 2020", :category_id => fiction.id )
+book2 = Book.create(:name => "Revgolution 2020", :category_id => fiction.id )
 puts "#{ book2.name } Created"
 book3 = Book.create(:name => "Mango Man", :category_id => fiction.id)
 puts "#{ book3.name } Created"

@@ -2,12 +2,12 @@ window.Message = window.Message || {}
 $(function($) {
    'use strict';
     window.message_container = $("#container");
-	window.Message.MessageRouter  = Backbone.Router.extend({
-	   routes: {
-	    "": "index",
-	    "all" : "all",
-	    ":id/edit": "edit"
-	   },
+		window.Message.MessageRouter  = Backbone.Router.extend({
+			 routes: {
+			  "": "index",
+			  "all" : "all",
+			  ":id/edit": "edit"
+			 },
 	    events:{
         "change .input": "captureValues",
         'submit form' : "savenow"  
@@ -31,10 +31,10 @@ $(function($) {
 	   index: function(){
          this.container.empty();
          window.Message.listing_area.show();
-	     window.Message.edit_area.hide();
-         var view = new window.Message.MessageIndexView({collection: this.collection});
-         return this.container.html(view.render().el); 
-	   },
+			   window.Message.edit_area.hide();
+		       var view = new window.Message.MessageIndexView({collection: this.collection}); //"imp"
+		       return this.container.html(view.render().el); 
+			  },
 	   edit: function(id){
 	     window.Message.listing_area.hide();
 	     var obj = window.message_collection.get(id);

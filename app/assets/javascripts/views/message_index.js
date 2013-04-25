@@ -15,7 +15,7 @@ $(function($){
           return this;
         },
         displayOne: function( message ){
-          console.log("displaying..")
+            console.log("displaying..")
             var view = new window.Message.MessageView({model: message });
             var element = view.render().el
             Message.listing_container.append($(element));
