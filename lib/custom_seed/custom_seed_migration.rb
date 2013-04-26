@@ -1,4 +1,5 @@
 require 'active_record/base'
+
 module CustomSeed
 
   class CustomSeedMigration < ActiveRecord::Base
