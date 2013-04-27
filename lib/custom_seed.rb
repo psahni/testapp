@@ -3,6 +3,9 @@ module CustomSeed
 
   extend self
 
+  mattr_accessor :version
+  self.version = '1.0'
+
 end
 
 require 'rails'

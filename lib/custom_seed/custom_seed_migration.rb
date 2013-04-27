@@ -13,13 +13,14 @@ module CustomSeed
       'custom_seeds_version_index'
     end
 
+
     def self.create_table
       unless connection.table_exists?(table_name)
         connection.create_table(table_name, id: false) do |table|
          table.column :version, :string, null: false
         end
+        connection.add_index table_name, :version, unique: true, name: index_name
       end
-      connection.add_index table_name, :version, unique: true, name: index_name
     end
 
 
@@ -30,6 +31,12 @@ module CustomSeed
       end
     end
 
+
+    private
+
+    def connection
+      ActiveRecord::Base.connection
+    end
   end
 
 
