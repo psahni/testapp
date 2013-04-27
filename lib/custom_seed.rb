@@ -1,14 +1,15 @@
 
-module CustomSeed
+require 'rails'
+require 'custom_seed/custom_seed'
+require 'custom_seed/custom_seed_migration'
 
-  extend self
+
+module CustomSeed
 
   mattr_accessor :version
   self.version = '1.0'
 
-end
+  require 'custom_seed/railtie' if defined?(Rails)
 
-require 'rails'
-require 'custom_seed/custom_seed'
-require 'custom_seed/custom_seed_migration'
+end
 

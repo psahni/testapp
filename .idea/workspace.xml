@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e76f84a-dd21-4508-9322-304320a027fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/templates/custom_seed.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed_generator.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/custom_seed/railtie.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/custom_seed.rb" afterPath="$PROJECT_DIR$/lib/custom_seed.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/custom_seed/custom_seed.rb" afterPath="$PROJECT_DIR$/lib/custom_seed/custom_seed.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/custom_seed/custom_seed_migration.rb" afterPath="$PROJECT_DIR$/lib/custom_seed/custom_seed_migration.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testapp.iws" />
@@ -35,7 +32,7 @@
     <file path="/_classic_xapp_controls.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366974020736" ignored="false" />
     <file path="/seeds.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366873861696" ignored="false" />
     <file path="/migration.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366876059980" ignored="false" />
-    <file path="/custom_seed.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367059940900" ignored="false" />
+    <file path="/custom_seed.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367062965301" ignored="false" />
     <file path="/install_generator.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366973002962" ignored="false" />
     <file path="/lead.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366878154484" ignored="false" />
     <file path="/custom_seed_migration.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367057949471" ignored="false" />
@@ -48,6 +45,9 @@
     <file path="$USER_HOME$/inxerO/inxero/app/views/social_widgets/_solution_xapp.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366974117862" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/social_widgets/showcase.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1366974124959" ignored="false" />
     <file path="/custom_seed_generator.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367059076730" ignored="false" />
+    <file path="/railtie.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367063565306" ignored="false" />
+    <file path="/seed_exector.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367063242821" ignored="false" />
+    <file path="/application.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367063545220" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +73,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_seed.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/custom_seed/custom_seed.rb">
+      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/custom_seed/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="11" column="33" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="24" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seed_exector.rake" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/custom_seed/tasks/seed_exector.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.20236088">
               <folding />
             </state>
           </provider>
@@ -91,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_seed_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom_seed_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="601" selection-end="601" vertical-scroll-proportion="0.5121951">
+            <state line="25" column="3" selection-start="617" selection-end="620" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +130,7 @@
       <file leaf-file-name="custom_seed.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/custom_seed.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="12" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,13 +159,16 @@
         <option value="$PROJECT_DIR$/lib/custom_seed/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/custom_seed/generators/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/custom_seed/install/install_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/custom_seed.rb" />
         <option value="$PROJECT_DIR$/lib/custom_seed/custom_seed_migration.rb" />
         <option value="$PROJECT_DIR$/lib/generators/custom_seed_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/templates/custom_seed.rb" />
         <option value="$PROJECT_DIR$/db/custom_seeds/20130427103952_AddUsers.rb" />
         <option value="$PROJECT_DIR$/lib/custom_seed/custom_seed.rb" />
+        <option value="$PROJECT_DIR$/lib/custom_seed.rb" />
+        <option value="$PROJECT_DIR$/lib/custom_seed/tasks/seed_exector.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/lib/custom_seed/railtie.rb" />
       </list>
     </option>
   </component>
@@ -219,36 +249,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom_seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="custom_seed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,6 +268,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="custom_seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,11 +299,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -666,11 +684,11 @@
     <frame x="0" y="1" width="1366" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17058824" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17058824" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19710806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -742,16 +760,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120319055000_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20121209164552_create_messages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/borrow.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -782,20 +790,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/custom_seed.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/install/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/custom_seed/custom_seed_migration.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="25" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
@@ -810,16 +804,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/custom_seed/custom_seed.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+        <state line="25" column="3" selection-start="617" selection-end="620" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/custom_seed/custom_seed.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="601" selection-end="601" vertical-scroll-proportion="0.5121951">
+        <state line="30" column="19" selection-start="600" selection-end="600" vertical-scroll-proportion="0.73170733">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/install/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/custom_seed.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/custom_seed/railtie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/custom_seed/tasks/seed_exector.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.20236088">
           <folding />
         </state>
       </provider>
