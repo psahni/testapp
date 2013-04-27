@@ -1,3 +1,4 @@
+
 module CustomSeed
 
   module SeedGeneratorHelper
@@ -17,12 +18,13 @@ module CustomSeed
 
       def execute
         custom_seed = new
-        if custom_seed.pending_seeds?
-          pending_seeds = custom_seed.pending_seeds
+        if pending_seeds?
           pending_seeds.each do |seed|
-            puts "==== Executing #{ seed.filename }"
+            puts "==== Executing [#{ seed.filename }]"
             seed.run
           end
+        else
+          puts "No Seed found. Please run 'rails generate custom_seed <filename>'"
         end
       end
 
@@ -36,8 +38,12 @@ module CustomSeed
       end
 
       def pending_seeds
-         all_seeds = custom_seed_paths(custom_seed_path)
          all_seeds.reject{|s| already_executed.include?(s.version)}
+      end
+
+
+      def all_seeds
+        custom_seed_paths(custom_seed_path)
       end
 
       def last_version
@@ -61,7 +67,7 @@ module CustomSeed
 
       def custom_seed_paths(path)
         path  = Array(path)
-        files = Dir[*paths.map { |p| "#{p}/**/[0-9]*_*.rb" }]
+        files = Dir[*path.map { |p| "#{p}/**/[0-9]*_*.rb" }]
         return [] if files.empty?
         seeds = files.map do |file|
           version, name, scope = file.scan(/([0-9]+)_([_a-z0-9]*)\.?([_a-z0-9]*)?\.rb\z/).first
@@ -88,7 +94,8 @@ module CustomSeed
     end
 
     def run
-       klass = name.constantize
+       load(filename)
+       klass = name.concat('Seed').constantize
        klass.send(:run)
        update_seeds_table
     end

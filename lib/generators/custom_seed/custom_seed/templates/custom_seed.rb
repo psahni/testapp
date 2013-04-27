@@ -1,6 +1,6 @@
 class <%=file_name.camelize%>Seed
 
-  def run
+  def self.run
   end
 
 end

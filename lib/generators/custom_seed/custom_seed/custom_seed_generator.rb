@@ -16,7 +16,7 @@ module CustomSeed
       extend CustomSeed::SeedGeneratorHelper
 
       def create_custom_seed_file
-        migration_template 'custom_seed.rb', "db/custom_seeds/#{ file_name.camelize }.rb"
+        migration_template 'custom_seed.rb', "db/custom_seeds/#{ file_name }.rb"
       end
 
 
