@@ -29,6 +29,7 @@ gem 'backbone-on-rails'
 
 
 gem 'passenger'
+gem 'foodie', :git => 'https://github.com/psahni/foodie.git'
 
 ######################################################################################
 

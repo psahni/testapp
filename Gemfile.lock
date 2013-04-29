@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/psahni/foodie.git
+  revision: b067c9d0c408e73cf7a4dcedd729f40c1fec3d16
+  specs:
+    foodie (0.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -151,6 +157,7 @@ DEPENDENCIES
   coffee-rails
   ejs (= 1.1.1)
   execjs
+  foodie!
   jasminerice
   jquery-rails
   mysql2

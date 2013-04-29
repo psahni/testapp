@@ -67,6 +67,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.5, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.3.3, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.1.3, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="testgem (v0.1.0, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.10.2, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.16.0, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.9.3-p374 [testapp]) [gem]" level="application" />
