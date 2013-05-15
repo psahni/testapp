@@ -1,0 +1,13 @@
+.ajax-notice{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    background: #F5AB5C;
+    text-align: center;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

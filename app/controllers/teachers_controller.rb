@@ -13,8 +13,9 @@ class TeachersController < ApplicationController
   def create
     @teacher = Teacher.new(params[:teacher])
     if @teacher.save
+      render :json => {:notice => "Teacher has been saved successfully"}, :status => 200
     else
-      render :json => @teacher.errors
+      render :json => @teacher.errors, :status => :unprocessable_entity
     end
   end
 

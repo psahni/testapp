@@ -2,36 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e76f84a-dd21-4508-9322-304320a027fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/testing/handlebar.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/custom_seed.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/custom_seed/custom_seed.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/custom_seed/custom_seed_migration.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/custom_seed/railtie.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/custom_seed/tasks/seed_executor.rake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/USAGE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/custom_seed_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/custom_seed/templates/custom_seed.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/install/USAGE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed/install/install_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/custom_seed_generator.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/testing/index.html.erb" afterPath="$PROJECT_DIR$/app/views/testing/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/messages/new.html.erb" afterPath="$PROJECT_DIR$/app/views/messages/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teachers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teachers_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testapp.iml" afterPath="$PROJECT_DIR$/.idea/testapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/testing_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/testing_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368592792497" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368599565452" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/messages/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367916523244" ignored="false" />
     <file path="/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368594066531" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/customized_showcase_request.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368522229813" ignored="false" />
@@ -69,7 +51,7 @@
     <file path="/custom_seed_generator.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367059076730" ignored="false" />
     <file path="/railtie.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367063565306" ignored="false" />
     <file path="/seed_exector.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367063242821" ignored="false" />
-    <file path="/application.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368597285000" ignored="false" />
+    <file path="/application.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368602396955" ignored="false" />
     <file path="/seed_executor.rake" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367071063683" ignored="false" />
     <file path="/20130427134306_AddUsers.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367070237087" ignored="false" />
     <file path="/20130427135131_add_users.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367071474104" ignored="false" />
@@ -184,10 +166,13 @@
     <file path="$USER_HOME$/inxerO/inxero/app/views/companies/_sub_nav_bar.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368529804846" ignored="false" />
     <file path="/application.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368594000354" ignored="false" />
     <file path="/new.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368597833790" ignored="false" />
-    <file path="/teachers_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368596330953" ignored="false" />
+    <file path="/teachers_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368610842344" ignored="false" />
     <file path="/teacher.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368596308313" ignored="false" />
-    <file path="/snippets.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368595554771" ignored="false" />
-    <file path="/ajax_error_representer.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368597862445" ignored="false" />
+    <file path="/snippets.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368601581210" ignored="false" />
+    <file path="/ajax_error_representer.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368602240625" ignored="false" />
+    <file path="/application.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368602469765" ignored="false" />
+    <file path="/ajax-error.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368608783677" ignored="false" />
+    <file path="/ajax-error.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368611007178" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +201,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+            <state line="15" column="45" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -224,10 +209,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax_error_representer.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer.js">
+      <file leaf-file-name="ajax-error.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26408452">
+            <state line="72" column="11" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.94736844">
               <folding />
             </state>
           </provider>
@@ -236,7 +221,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="17" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.0">
+            <state line="52" column="4" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -254,7 +239,25 @@
       <file leaf-file-name="teachers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/teachers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="18" column="46" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax-error.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,28 +281,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/testing/handlebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/testing/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/teachers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/messages/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/teachers.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" />
         <option value="$PROJECT_DIR$/app/models/teacher.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax_error_representer.js" />
+        <option value="$PROJECT_DIR$/app/views/teachers/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css" />
         <option value="$PROJECT_DIR$/app/controllers/teachers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/teachers/new.html.erb" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
+    <option name="x" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -327,6 +331,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -579,8 +585,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -870,14 +874,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15449011" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09242424" sideWeight="0.6713396" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19710806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -951,102 +955,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/testing/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="129" selection-end="129" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="627" selection-end="627" vertical-scroll-proportion="0.5494506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/snippet.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/message.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/media.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.02640845">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.02640845" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/borrow.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/book.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.13204226">
-          <folding />
-        </state>
+        <state line="5" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.13204226" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/teacher.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/teachers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1058,9 +1004,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer.js">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26408452">
+        <state line="52" column="4" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/snippets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="18" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.92105263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/teachers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="11" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.94736844">
           <folding />
         </state>
       </provider>

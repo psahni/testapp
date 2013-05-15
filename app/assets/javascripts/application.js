@@ -13,4 +13,4 @@
 //= require_tree ./templates
 //= require scroll_to
 //= require handlebar
-//= require ajax_error_representer
+//= require ajax_error_representer/ajax-error
