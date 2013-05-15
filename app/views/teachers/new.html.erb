@@ -1,0 +1,29 @@
+<div class='container'>
+
+  <div class='form'>
+
+   <%=form_for @teacher, :remote => true do |form|%>
+
+    <div class='field'>
+        <label for="">Name</label>
+        <%=form.text_field :name%>
+    </div>
+
+    <div class='field'>
+     <label for="">Qualfication</label>
+     <%=form.select :qualification, Teacher::QUALIFICATION.map{|k,v| [v,k]}, :prompt => "Select"%>
+    </div>
+
+    <div class='field'>
+      <label for=""></label>
+      <%=form.submit "Save"%>
+    </div>
+
+    <% end %>
+
+  </div>
+
+</div>
+<script type="text/javascript">
+  var teacher_form = new AjaxErrorRepresenter('teacher', {form_id: "new_teacher"});
+</script>

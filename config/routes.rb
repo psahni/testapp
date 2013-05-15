@@ -9,15 +9,17 @@ TestingApp::Application.routes.draw do
     get 'test' 
     get 'embed'
     get 'fbtesting'
+    get 'handlerbar'
    end
   end
   
   match '/fbtesting' => "testing#fbtesting", :as => :testing
-  
+  match '/handlebar' => 'testing#handlebar', :as => :handlebar1
   
   resources :messages
   resources :snippets 
-  
+  resources :teachers
+
   mount Resque::Server, :at => "/resque"
     
   # PATH PREFIX

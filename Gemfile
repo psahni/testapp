@@ -30,6 +30,7 @@ gem 'backbone-on-rails'
 
 gem 'passenger'
 gem 'foodie', :git => 'https://github.com/psahni/foodie.git'
+gem 'custom_seed', :git => 'https://github.com/psahni/custom_seed.git'
 
 ######################################################################################
 

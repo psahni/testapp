@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121209164552) do
+ActiveRecord::Schema.define(:version => 20130515045622) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
@@ -50,6 +50,12 @@ ActiveRecord::Schema.define(:version => 20121209164552) do
     t.datetime "updated_at",       :null => false
   end
 
+  create_table "custom_seeds", :id => false, :force => true do |t|
+    t.string "version", :null => false
+  end
+
+  add_index "custom_seeds", ["version"], :name => "custom_seeds_version_index", :unique => true
+
   create_table "media", :force => true do |t|
     t.string   "title"
     t.integer  "type_of_media"
@@ -72,6 +78,13 @@ ActiveRecord::Schema.define(:version => 20121209164552) do
     t.text     "highlighted_code"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "teachers", :force => true do |t|
+    t.string   "name"
+    t.integer  "qualification"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "users", :force => true do |t|

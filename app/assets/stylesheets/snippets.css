@@ -110,3 +110,13 @@ span.number{
     padding: 5px;
     margin: 5px;
 }
+
+
+div.field input[type='submit']{
+    width:       75px;
+    height:      30px;
+    font-size:   14px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top:  20px;
+}

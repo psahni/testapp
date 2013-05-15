@@ -13,5 +13,9 @@ class TestingController < ApplicationController
   def fbtesting
     
   end
+
+  def handlerbar
+
+  end
   
 end

@@ -1,0 +1,81 @@
+<div id="entry">
+</div>
+
+<div id="entry_list">
+
+</div>
+
+<div id="entry_list_2">
+
+</div>
+
+
+<script id="entry-template" type="text/x-handlebars-template">
+  <div class="entry">
+    <h1>{{title}}</h1>
+
+    <div class="body">
+      {{body}}
+    </div>
+
+    <div class="body">
+      {{{body}}}
+    </div>
+
+  </div>
+</script>
+
+<script type="text/javascript">
+var source   = $("#entry-template").html();
+var template = Handlebars.compile(source);
+var context = {title: "My New Post", body: "<p>This is my first post!</p>"}
+var html    = template(context);
+$("#entry").html(html);
+</script>
+
+<script type="text/javascript">
+
+  /*
+  * Registring a helper
+  * */
+    Handlebars.registerHelper('list', function(items, options) {
+        var out = "<ul>";
+
+        for(var i=0, l=items.length; i<l; i++) {
+            out = out + "<li>" + options.fn(items[i]) + "</li>";
+        }
+
+        return out + "</ul>";
+    });
+
+   var context =  {
+        people: [
+            {firstName: "Yehuda", lastName: "Katz"},
+            {firstName: "Carl", lastName: "Lerche"},
+            {firstName: "Alan", lastName: "Johnson"}
+        ]
+    }
+
+    var source = "{{#list people}}{{firstName}} {{lastName}}{{/list}}";
+    //var source =   "<ul>{{#list}}<li>{{firstName}}{{lastName}}</li>{{/list}}</ul>";
+    var template = Handlebars.compile(source);
+    var html = template(context);
+
+    $("#entry_list").html(html);
+
+
+</script>
+
+<script type="text/javascript">
+    Handlebars.registerHelper('link_to', function(title, context) {
+        return "<a href='/posts" + context.url + "'>" + title + "!</a>"
+    });
+
+    var context = { posts: [{url: "/hello-world", body: "Hello World!"}] };
+    var source = '<ul>{{#posts}}<li>{{{link_to "Post" this}}}</li>{{/posts}}</ul>'
+
+    var template = Handlebars.compile(source);
+    var html = template(context);
+
+    $("#entry_list_2").html(html);
+</script>
