@@ -11,6 +11,12 @@ GIT
   specs:
     foodie (0.0.1)
 
+GIT
+  remote: https://github.com/psahni/url_field_formatter.git
+  revision: 2bd1e0aff6bbcf793dba40fed0431b4fcb9980e6
+  specs:
+    url_field_formatter (1.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -175,4 +181,5 @@ DEPENDENCIES
   sass-rails
   therubyracer
   uglifier
+  url_field_formatter!
   wirble

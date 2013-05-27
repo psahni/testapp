@@ -1,12 +1,17 @@
 class User < ActiveRecord::Base
+
   has_many :articles
   has_many :medias, :through => :articles
   has_many :comments, :through => :articles
   has_many :borrows
   has_many :books, through:  :borrows
   has_many :categories_of_books, through: :books,  source:  :category
-  has_many :messages  
-  
+  has_many :messages
+
+
+  url_field_formatter :website
+
+
   def suggested_books
     Book.where("category_id IN (?) AND id NOT IN (?)",  self.categories_of_books(:include => :books), self.books)
   end

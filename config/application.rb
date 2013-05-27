@@ -18,6 +18,7 @@ module TestingApp
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
       config.autoload_paths+=%W(#{config.root}/app/models/observers)
+      #config.autoload_paths+=%W(#{config.root}/lib/)
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
     # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
@@ -32,6 +33,7 @@ module TestingApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -48,8 +50,11 @@ module TestingApp
     config.assets.version = '1.0'
 
 
+
     config.assets.paths << Rails.root.join("vender",   'assets', 'javascripts')
     config.assets.paths << Rails.root.join("vender", 'assets', 'stylesheets')
+
+
 
   end
 end

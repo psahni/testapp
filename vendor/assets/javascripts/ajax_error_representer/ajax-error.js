@@ -65,7 +65,7 @@ AjaxErrorHelper = {};
         },
 
         success: function(data){
-            AjaxErrorHelper.showNotice(data.notice);
+            if(data.notice) AjaxErrorHelper.showNotice(data.notice);
             this.form[0].reset();
         }
 
