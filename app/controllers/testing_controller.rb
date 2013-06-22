@@ -1,5 +1,6 @@
 class TestingController < ApplicationController
 
+  layout 'templating', :only => [:handlebar]
   def index
   end
 
@@ -15,7 +16,6 @@ class TestingController < ApplicationController
   end
 
   def handlerbar
-
   end
   
 end

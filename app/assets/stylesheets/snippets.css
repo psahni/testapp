@@ -1,8 +1,19 @@
-html, body {
+/*html, body {
   background-color: #4B7399;
   font-family: Verdana, Helvetica, Arial;
   font-size: 14px;
+} */
+*{
+    margin:0;
+    padding:0;
 }
+html {
+	background-color: #F15A24;
+	padding-top: 10px;
+	font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 
 a img {
   border: none;
@@ -12,7 +23,7 @@ a {
   color: #0000FF;
 }
 a:hover{
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .clear {
@@ -88,39 +99,70 @@ a:hover{
 }
 
 .field{
-    margin: 10px 0px 0px 2px;
+	margin: 10px 0px 0px 2px;
 }
 .field label{
-    width: 100px;
-    float: left;
+	width: 100px;
+	float: left;
 }
 
 .field input{
-    width: 400px;   
-    font-size: 18px;
+	width: 400px;
+	font-size: 18px;
 }
 span.number{
-    color: green;
-    font-weight: bold;
-    padding: 0px 5px 0px 5px;
+	color: green;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
 }
 .small_box{
-    float: left;
-    border: 1px solid #222;
-    padding: 5px;
-    margin: 5px;
+	float: left;
+	border: 1px solid #222;
+	padding: 5px;
+	margin: 5px;
 }
 
 
 div.field input[type='submit']{
-    width:       75px;
-    height:      30px;
-    font-size:   14px;
-    text-align: center;
-    margin-left: 100px;
-    margin-top:  20px;
+	width:       75px;
+	height:      30px;
+	font-size:   14px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top:  20px;
 }
 
 span.ajax-error{
-    color:crimson;
+	color:crimson;
+}
+
+/* TEMPLATING LAYOUT*/
+#contents{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    z-index: 2;
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px ;
+    top: 50%;
+    left: 50%;
+
+}
+header#templating{
+    z-index: 1;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#contents h3{
+    color:darkgoldenrod;
+    margin-top: 10px;
+}
+
+#contents ul{
+    list-style: none;
 }

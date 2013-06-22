@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>Create jQuery Custom Selector by www.dotnetcurry.com</title>
+<style type="text/css"> 
+    div  
+    {
+        height: 200px; 
+        width: 250px; 
+        border: 1px solid black; 
+    }        
+</style>
+<script type="text/javascript"    
+    src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js">
+</script>
+<script type="text/javascript">
+    $(function () {
+        $.extend($.expr[':'], {
+            mailToLink: function (obj) {
+                return obj.href.match(/^mailto\:/);
+            }
+        });
+
+        $("#btnFindMailTo").click(function () {
+            $("div a:mailToLink").css("color", "red");
+        });
+    });
+ </script>
+ </head>
+ <body>
+ <p>List of Links:</p>
+ <div>
+     <a href="http://www.sqlservercurry.com">SQL Tips</a><br />
+     <a href="mailto:fakeaddr@devcurry.com">fakeaddr@devcurry.com</a><br />
+     <a href="http://www.devcurry.com/">.NET Tips</a><br />
+     <a href="http://www.dotnetcurry.com">.NET Articles</a><br />
+ </div>
+ <input id="btnFindMailTo" type="button" value="Find mailto: links" />
+ </body>
+ </html>
+

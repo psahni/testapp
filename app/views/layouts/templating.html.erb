@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "Javascript Templating" %></title>
+  <%= javascript_include_tag "application" %>  <%= stylesheet_link_tag 'snippets' %>
+  <%= csrf_meta_tag %>
+  <%= yield(:head) %>
+</head>
+<header id="templating">
+  <strong>Javascript Templating</strong>
+</header>
+<body>
+<div id="contents">
+  <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, :id => "flash_#{name}" %>
+  <% end %>
+  <%= content_tag :h1, yield(:title) if show_title? %>
+  <%= yield %>
+</div>
+</body>
+</html>

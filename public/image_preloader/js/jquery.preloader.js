@@ -34,10 +34,10 @@ $.fn.preloader = function(options) {
       for( i = 0; i < images.length; i++) {
         if(images[i].complete == true) {
           if(checkFlag[i] == false) {
-            checkFlag[i] = true;
-            options.oneachload(images[i]);
-            counter++;
-            delaySum = delaySum + options.delay;
+             checkFlag[i] = true;
+             options.oneachload(images[i]);
+             counter++;
+             delaySum = delaySum + options.delay;
           }
           $(images[i]).css("visibility", "visible").delay(delaySum).animate({
             opacity : 1
@@ -69,6 +69,7 @@ $.fn.preloader = function(options) {
    if(icon[0].complete == true) {
      console.log("complete")
       clearInterval(timer);
+//      alert("Now start loading images, alright")
       init();
       icon.remove();
       return;

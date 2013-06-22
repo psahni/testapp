@@ -1,3 +1,86 @@
+<h3>Simple Example</h3>
+<div id='data'>
+</div>
+
+<h3>Iterator Example 1</h3>
+<div id="comments">
+</div>
+
+<h3>Iterator Example 2</h3>
+<div id="people">
+</div>
+
+<script id="entry-template" type="text/x-handlebars-template">
+    <div class="entry">
+      <h1>{{title}}</h1>
+      <div class="body">
+        {{body}}
+      </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+  var source = $("#entry-template").html();
+  var context = { title: 'My Title', body: 'Awesome Title' };
+  var template = Handlebars.compile(source);
+  var html = template(context);
+  $("#data").html(html);
+</script>
+
+<script type="text/x-handlebars-template" id="iterator">
+    <div class='post'>
+      <h4>By {{ fullName author }}</h4>
+      <div class='body'>
+        {{body}}
+      </div>
+      <div class='comments'>
+        {{#each comments}}
+           <h5>By {{person_name}}</h5>
+           {{ comment }}
+        {{else}}
+           <h5>No comments found</h5>                             <!-- if comments in context is left with {}, this will be displayed -->
+        {{/each}}
+      </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+  var source = $("#iterator").html();
+  var context = {
+      author: {firstName: 'Prashant', lastName: 'Sahni'},
+      body: "I love Handle Bar",
+      comments: [{ person_name: 'Anand', comment: 'Awesome Post!'}]
+  }
+
+  Handlebars.registerHelper('fullName', function(person) {
+      return person.firstName + " " + person.lastName;
+  });
+
+   var template = Handlebars.compile(source);
+   var html = template(context);
+   $("#comments").html(html);
+</script>
+
+<script type="text/x-handlebars-template" id="people_template">
+    <div class='people'>
+      {{log "Look at me!"}}
+      {{#each people}}
+        <ul class='person'>
+          <li>{{ this }}</li>
+        </ul>
+      {{/each}}
+    </div>
+</script>
+<script type="text/javascript">
+  var source = $("#people_template").html();
+  var template = Handlebars.compile(source);
+  var context = {people: ['Prashant', 'Deepshikha', 'Shubhum']};
+  var html = template(context);
+  $("#people").html(html);
+
+</script>
+<!--
+
 <div id="entry">
 </div>
 
@@ -65,7 +148,6 @@ $("#entry").html(html);
 
 
 </script>
-
 <script type="text/javascript">
     Handlebars.registerHelper('link_to', function(title, context) {
         return "<a href='/posts" + context.url + "'>" + title + "!</a>"
@@ -79,7 +161,7 @@ $("#entry").html(html);
 
     $("#entry_list_2").html(html);
 </script>
-
+-->
 
 <!--
     http://blog.teamtreehouse.com/getting-started-with-handlebars-js

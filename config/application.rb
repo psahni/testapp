@@ -50,7 +50,7 @@ module TestingApp
     config.assets.version = '1.0'
 
 
-
+    config.assets.paths << Rails.root.join("lib",   'assets', 'javascripts')
     config.assets.paths << Rails.root.join("vender",   'assets', 'javascripts')
     config.assets.paths << Rails.root.join("vender", 'assets', 'stylesheets')
 

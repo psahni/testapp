@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   has_many :messages
 
 
-  url_field_formatter :website
+  format_url_field :website
 
 
   def suggested_books

@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/psahni/url_field_formatter.git
-  revision: 2bd1e0aff6bbcf793dba40fed0431b4fcb9980e6
+  revision: acc1a452df1f862dc0571e12671ff24e6a5cab51
   specs:
     url_field_formatter (1.1)
 

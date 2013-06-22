@@ -4,7 +4,7 @@ TestingApp::Application.routes.draw do
   root :to => 'testing#index'
 
   
-  resources :testing do
+  resources :testing, :controller => :testing do
    collection do
     get 'test' 
     get 'embed'
@@ -19,7 +19,12 @@ TestingApp::Application.routes.draw do
   resources :messages
   resources :snippets 
   resources :teachers
-
+  resources :uploader, :controller => 'uploader' do
+    collection do
+     get 'html5_uploader'
+    end
+  end
+  
   mount Resque::Server, :at => "/resque"
     
   # PATH PREFIX
