@@ -10,6 +10,10 @@
 <div id="people">
 </div>
 
+<h3>Helper Example</h3>
+ <div id="story">
+ </div>
+
 <script id="entry-template" type="text/x-handlebars-template">
     <div class="entry">
       <h1>{{title}}</h1>
@@ -79,89 +83,53 @@
   $("#people").html(html);
 
 </script>
-<!--
-
-<div id="entry">
-</div>
-
-<div id="entry_list">
-
-</div>
-
-<div id="entry_list_2">
-
-</div>
-
-
-<script id="entry-template" type="text/x-handlebars-template">
-  <div class="entry">
-    <h1>{{title}}</h1>
-
-    <div class="body">
-      {{body}}
-    </div>
-
-    <div class="body">
-      {{{body}}}
-    </div>
-
-  </div>
-</script>
 
 <script type="text/javascript">
-var source   = $("#entry-template").html();
-var template = Handlebars.compile(source);
-var context = {title: "My New Post", body: "<p>This is my first post!</p>"}
-var html    = template(context);
-$("#entry").html(html);
-</script>
+    Handlebars.registerHelper('link', function(object){
+       // return "<a href='" + object.url + "' target='_blank'>" + object.text + "</a>"
+        return new Handlebars.SafeString("<a href='" + object.url + "'>" + object.text + "</a>");
 
-<script type="text/javascript">
-
-  /*
-  * Registring a helper
-  * */
-    Handlebars.registerHelper('list', function(items, options) {
-        var out = "<ul>";
-
-        for(var i=0, l=items.length; i<l; i++) {
-            out = out + "<li>" + options.fn(items[i]) + "</li>";
-        }
-
-        return out + "</ul>";
     });
-
-   var context =  {
-        people: [
-            {firstName: "Yehuda", lastName: "Katz"},
-            {firstName: "Carl", lastName: "Lerche"},
-            {firstName: "Alan", lastName: "Johnson"}
-        ]
-    }
-
-    var source = "{{#list people}}{{firstName}} {{lastName}}{{/list}}";
-    //var source =   "<ul>{{#list}}<li>{{firstName}}{{lastName}}</li>{{/list}}</ul>";
-    var template = Handlebars.compile(source);
-    var html = template(context);
-
-    $("#entry_list").html(html);
-
-
 </script>
+
+<script type="text/x-handlebars-template" id="helper1">
+    {{{link story}}}
+</script>
+
 <script type="text/javascript">
-    Handlebars.registerHelper('link_to', function(title, context) {
-        return "<a href='/posts" + context.url + "'>" + title + "!</a>"
-    });
-
-    var context = { posts: [{url: "/hello-world", body: "Hello World!"}] };
-    var source = '<ul>{{#posts}}<li>{{{link_to "Post" this}}}</li>{{/posts}}</ul>'
-
-    var template = Handlebars.compile(source);
-    var html = template(context);
-
-    $("#entry_list_2").html(html);
+  var source   = $("#helper1").html();
+  var template = Handlebars.compile(source);
+  var context  = { story: { url: 'http://prashantsahni.in', text: 'My Website'} };
+  var html = template(context);
+  $("#story").html(html);
 </script>
--->
+
+<h3>Helper Example 2</h3>
+<div id="people_list_helper">
+</div>
+
+<script type="text/javascript">
+  Handlebars.registerHelper('list', function(items, options){
+   var out = '<ul>';
+   var length = items.length;
+   for(i=0; i< length;i++){
+     out = out+"<li>" +  options.fn(items[i]) + "</li>";
+   }
+   return out  + '</ul>';
+  });
+</script>
+<script type="text/x-handlebars-template" id="helper2">
+    {{#list people}}{{firstName}}{{lastName}}{{/list}}
+</script>
+
+<script type="text/javascript">
+  var source = $("#helper2").html();
+  var template = Handlebars.compile(source);
+  var context = {people: [{firstName: 'Prashant', lastName: 'Sahni'},{ firstName: 'Dinesh', lastName: 'Singh'}, {firstName: 'Raja', lastName: 'Khan'}]};
+  var html = template(context);
+  $("#people_list_helper").html(html);
+</script>
+
 
 <!--
     http://blog.teamtreehouse.com/getting-started-with-handlebars-js
