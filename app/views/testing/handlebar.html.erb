@@ -119,11 +119,11 @@
   });
 </script>
 <script type="text/x-handlebars-template" id="helper2">
-    {{#list people}}{{firstName}}{{lastName}}{{/list}}
+    {{#list people}}{{firstName}} {{lastName}}{{/list}}
 </script>
 
 <script type="text/javascript">
-  var source = $("#helper2").html();
+  var source = JST['templates/people']();
   var template = Handlebars.compile(source);
   var context = {people: [{firstName: 'Prashant', lastName: 'Sahni'},{ firstName: 'Dinesh', lastName: 'Singh'}, {firstName: 'Raja', lastName: 'Khan'}]};
   var html = template(context);
