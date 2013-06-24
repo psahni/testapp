@@ -1,0 +1,18 @@
+<div class='page-template container'>
+  <h2>Create Article</h2>
+  <div class='form'>
+    <%= form_for @article do |form|%>
+        <div class='field'>
+            <label for="Title">Title</label>
+            <%=form.text_field :title%>
+            <span><%=@article.errors["title"].first%></span>
+        </div>
+        <div class='field'>
+           <label for="Body">Body</label>
+            <%=form.text_area :body, :cols => 49, :rows => 10%>
+          <span><%=@article.errors["body"].first%></span>
+        </div>
+        <%=form.submit "Save"%>
+    <% end %>
+  </div>
+</div>

@@ -13,4 +13,5 @@
 //= require_tree ./templates
 //= require scroll_to
 //= require handlebar
+//= require facebox.js
 //= require ajax_error_representer/ajax-error

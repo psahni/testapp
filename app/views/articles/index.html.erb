@@ -1,0 +1,16 @@
+<div class='page-template'>
+  <h2 style='margin-bottom: 10px;'>Listing Articles</h2>
+  <h3 style='margin-bottom: 10px;'><a href="<%=new_article_path%>">Create Article</a></h3>
+  <div class='articles'>
+    <% @articles.each do |article|%>
+        <div class='article'>
+           <div class='title'>
+             <%=link_to article.title, article%>
+           </div>
+           <div>
+             <%=article.body%>
+           </div>
+        </div>
+    <% end %>
+  </div>
+</div>

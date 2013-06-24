@@ -19,7 +19,7 @@ AjaxErrorHelper = {};
             notice.slideDown();
             setTimeout(function(){
                 AjaxErrorHelper.hideNotice()
-            }, 2500);
+            }, 3500);
         },
         hideNotice: function(){
             $("div.ajax-notice").slideUp('slow').fadeOut();
@@ -39,6 +39,7 @@ AjaxErrorHelper = {};
         initialize: function(entity_type, options){
             this.entity_type = entity_type;
             this.form_id = options['form_id'];
+            this.update_container = options['update_container'];
             this.form    = $("#" + this.form_id);
             this.bindCallbacks();
         },
@@ -67,6 +68,8 @@ AjaxErrorHelper = {};
         success: function(data){
             if(data.notice) AjaxErrorHelper.showNotice(data.notice);
             this.form[0].reset();
+            if(this.update_container)
+              $("#"+this.update_container).append(data.html);
         }
 
     })  ;

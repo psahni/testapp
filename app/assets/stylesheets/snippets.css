@@ -100,15 +100,20 @@ a:hover{
 
 .field{
 	margin: 10px 0px 0px 2px;
+    width: 350px;
 }
 .field label{
 	width: 100px;
 	float: left;
 }
 
+.field input, select{
+	width: 350px;
+}
+
 .field input{
-	width: 400px;
-	font-size: 18px;
+    height: 20px;
+    font-size: 16px;
 }
 span.number{
 	color: green;
@@ -165,4 +170,13 @@ header#templating{
 
 #contents ul{
     list-style: none;
+}
+
+.left{
+    float:left;
+}
+.submit-button{
+    margin: 5px 0px 5px 0px;
+    padding: 6px;
+    font-size: 14px;
 }

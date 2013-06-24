@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/views/articles/show.html.erb" line="28" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e76f84a-dd21-4508-9322-304320a027fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/people.jst.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/testing/handlebar.html.erb" afterPath="$PROJECT_DIR$/app/views/testing/handlebar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/_comment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/comment.rb" afterPath="$PROJECT_DIR$/app/models/comment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmls/scroll_example2.html" afterPath="$PROJECT_DIR$/public/htmls/scroll_example2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/uploader.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/uploader.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371958273192" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372053185019" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/messages/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367916523244" ignored="false" />
-    <file path="/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1370351507924" ignored="false" />
+    <file path="/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371989960895" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/customized_showcase_request.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369140478616" ignored="false" />
     <file path="/customized_showcase_request.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368782861105" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/controllers/customize_showcase_requests_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368790022596" ignored="false" />
@@ -57,8 +76,8 @@
     <file path="/call_to_actions_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368104309360" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/call_to_actions/new.js.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368106381633" ignored="false" />
     <file path="/new.js.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368082025132" ignored="false" />
-    <file path="$USER_HOME$/inxerO/inxero/app/assets/javascripts/validation.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367404886185" ignored="false" />
-    <file path="/validation.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367400643141" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/assets/javascripts/validation.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372067985419" ignored="false" />
+    <file path="/validation.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372067727899" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/social_widgets/_classic_xapp_code.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367404884757" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/call_to_actions/_form.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367404886185" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/assets/stylesheets/solution_portfolio_xapp.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367404886185" ignored="false" />
@@ -89,7 +108,7 @@
     <file path="/_customized_showcase.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367818210931" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/offerings/_call_to_actions_forms.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367819553872" ignored="false" />
     <file path="/_call_to_actions_forms.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367819318350" ignored="false" />
-    <file path="/routes.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371911726276" ignored="false" />
+    <file path="/routes.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371999777600" ignored="false" />
     <file path="/handlebar.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371965072234" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/call_to_actions/_new.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367824769373" ignored="false" />
     <file path="/_new.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367824768615" ignored="false" />
@@ -99,7 +118,7 @@
     <file path="$USER_HOME$/inxerO/inxero/app/helpers/messages_helper.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367908606162" ignored="false" />
     <file path="/messages_helper.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367908605702" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/messages/show.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368788954748" ignored="false" />
-    <file path="/show.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368788954044" ignored="false" />
+    <file path="/show.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372058774170" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/customize_showcase_requests/approve_via_message.js.html" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367914505224" ignored="false" />
     <file path="/approve_via_message.js.html" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367914505224" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/customize_showcase_requests/approve_via_message.js.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367914547186" ignored="false" />
@@ -159,15 +178,15 @@
     <file path="/who_has_access.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368782253749" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/shared/_user_bar.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368526761777" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/companies/_sub_nav_bar.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368529804846" ignored="false" />
-    <file path="/application.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371911250894" ignored="false" />
-    <file path="/new.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368597833790" ignored="false" />
+    <file path="/application.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371982382837" ignored="false" />
+    <file path="/new.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371989840474" ignored="false" />
     <file path="/teachers_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368610842344" ignored="false" />
     <file path="/teacher.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368596308313" ignored="false" />
-    <file path="/snippets.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371916951159" ignored="false" />
+    <file path="/snippets.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372056627777" ignored="false" />
     <file path="/ajax_error_representer.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368602240625" ignored="false" />
-    <file path="/application.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368602469765" ignored="false" />
-    <file path="/ajax-error.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368608783677" ignored="false" />
-    <file path="/ajax-error.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368631237629" ignored="false" />
+    <file path="/application.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372054306377" ignored="false" />
+    <file path="/ajax-error.css" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372055720296" ignored="false" />
+    <file path="/ajax-error.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372057453539" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/showcases/_manage_sponsor_tab.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368614274126" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/showcases/request_to_access.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369659656927" ignored="false" />
     <file path="/request_to_access.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368788006117" ignored="false" />
@@ -180,11 +199,11 @@
     <file path="/inxo_application.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368684291278" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/showcases/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368770113211" ignored="false" />
     <file path="/config.yml" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1368793822490" ignored="false" />
-    <file path="$USER_HOME$/inxerO/inxero/app/views/engagements/sponsors.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369136836980" ignored="false" />
-    <file path="/sponsors.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369136803581" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/views/engagements/sponsors.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372062852931" ignored="false" />
+    <file path="/sponsors.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372062723766" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/engagements/_sponsor_partners.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369130355722" ignored="false" />
-    <file path="$USER_HOME$/inxerO/inxero/app/views/engagements/_sponsor_through_email.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369135986448" ignored="false" />
-    <file path="/_sponsor_through_email.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369135959870" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/views/engagements/_sponsor_through_email.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372074187862" ignored="false" />
+    <file path="/_sponsor_through_email.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372074184900" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/controllers/engagements_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369134309748" ignored="false" />
     <file path="/engagements_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369134309748" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/sponsor_invitation.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369142627387" ignored="false" />
@@ -212,6 +231,21 @@
     <file path="$USER_HOME$/inxerO/inxero/lib/assets/javascripts/inxo_xapp_loader.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1370341246156" ignored="false" />
     <file path="/inxo_xapp_loader.js" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1370341244976" ignored="false" />
     <file path="/templating.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371913191648" ignored="false" />
+    <file path="/articles_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371998889005" ignored="false" />
+    <file path="/articles.css.scss" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371999055830" ignored="false" />
+    <file path="/development.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371982866182" ignored="false" />
+    <file path="/article.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1371990085847" ignored="false" />
+    <file path="/_comment.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372057691616" ignored="false" />
+    <file path="/comments_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372059359260" ignored="false" />
+    <file path="/comment.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372000663617" ignored="false" />
+    <file path="/scroll_example2.html" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372055110681" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/views/messages/email_sharing.js.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372069239885" ignored="false" />
+    <file path="/email_sharing.js.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372069219677" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/views/messages/email_sharing.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372069323235" ignored="false" />
+    <file path="/email_sharing.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372069312050" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/views/messages/_email_sharing_form.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372072066293" ignored="false" />
+    <file path="/_email_sharing_form.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372071129900" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/controllers/social_stories_controller.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1372073496570" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,10 +267,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="articles_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="104" selection-end="150" vertical-scroll-proportion="-0.625">
+            <state line="17" column="69" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="45" selection-start="490" selection-end="490" vertical-scroll-proportion="0.38908452">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_comment.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/_comment.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -245,26 +297,28 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="614" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="15" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templating.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/templating.html.erb">
+      <file leaf-file-name="ajax-error.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="63" column="69" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="45" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="13" column="65" selection-start="467" selection-end="469" vertical-scroll-proportion="-8.5">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -272,52 +326,7 @@
       <file leaf-file-name="snippets.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/snippets.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="20" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handlebar.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/testing/handlebar.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="41" selection-start="3339" selection-end="3339" vertical-scroll-proportion="0.4990177">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/testing/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="42" selection-end="71" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helloworld.jst.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/helloworld.jst.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.jst.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/messages.jst.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="people.jst.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/people.jst.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="180" column="19" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -341,22 +350,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/views/message.js" />
-        <option value="$PROJECT_DIR$/db/migrate/20130527104302_add_website_to_users.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/testapp.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/url_formatter.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/testing/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/article.rb" />
+        <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/articles.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/testing_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/templating.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/public/htmls/scroll_example2.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/snippets.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/people.jst.ejs" />
-        <option value="$PROJECT_DIR$/app/views/testing/handlebar.html.erb" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js" />
+        <option value="$PROJECT_DIR$/app/views/articles/_comment.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
       </list>
     </option>
   </component>
@@ -390,7 +399,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,6 +424,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -451,117 +521,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,81 +547,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Ruby" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: testapp">
@@ -963,14 +862,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21232876" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21993911" sideWeight="0.6713396" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21993911" sideWeight="0.6713396" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19710806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1044,110 +943,120 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/uploader/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="323" selection-end="323" vertical-scroll-proportion="-6.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/uploader.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/snippets.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="0" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/testing_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="104" selection-end="150" vertical-scroll-proportion="-0.625">
+        <state line="6" column="36" selection-start="186" selection-end="186" vertical-scroll-proportion="0.19615385" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="186" selection-end="186" vertical-scroll-proportion="0.11971831">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="28" column="23" selection-start="584" selection-end="584" vertical-scroll-proportion="0.10211267">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/templating.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/facebox/src/facebox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.6514084">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1363844715758" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1363844715758" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1363844715758" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1363844715758" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/snippets.css">
+    <entry file="file://$PROJECT_DIR$/public/htmls/scroll_example2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="20" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
+        <state line="20" column="34" selection-start="481" selection-end="482" vertical-scroll-proportion="0.6273063">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="614" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/messages/message.jst.ejs">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/snippets.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/helloworld.jst.ejs">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="6" column="12" selection-start="363" selection-end="363" vertical-scroll-proportion="0.17957747">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/messages.jst.ejs">
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/ajax-error.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="12" column="62" selection-start="284" selection-end="284" vertical-scroll-proportion="0.35915494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/people.jst.ejs">
+    <entry file="file://$PROJECT_DIR$/app/views/messages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/testing/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="42" selection-end="71" vertical-scroll-proportion="-1.25">
+        <state line="15" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/testing/handlebar.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/snippets.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="41" selection-start="3339" selection-end="3339" vertical-scroll-proportion="0.4990177">
+        <state line="180" column="19" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ajax_error_representer/ajax-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="69" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="69" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_comment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="467" selection-end="469" vertical-scroll-proportion="-8.5">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="490" selection-end="490" vertical-scroll-proportion="0.38908452">
           <folding />
         </state>
       </provider>

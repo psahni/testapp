@@ -32,6 +32,9 @@ gem 'passenger'
 gem 'foodie',              :git => 'https://github.com/psahni/foodie.git'
 gem 'custom_seed',         :git => 'https://github.com/psahni/custom_seed.git'
 gem 'url_field_formatter', :git => 'https://github.com/psahni/url_field_formatter.git'
+
+
+
 ######################################################################################
 
 # gem "squeel" #https://github.com/ernie/squeel #Active Record queries

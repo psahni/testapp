@@ -24,7 +24,10 @@ TestingApp::Application.routes.draw do
      get 'html5_uploader'
     end
   end
-  
+
+  resources :articles do
+    resources :comments
+  end
   mount Resque::Server, :at => "/resque"
     
   # PATH PREFIX
