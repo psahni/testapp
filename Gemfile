@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 
 gem 'rails', '3.2.8'
@@ -33,6 +33,8 @@ gem 'foodie',              :git => 'https://github.com/psahni/foodie.git'
 gem 'custom_seed',         :git => 'https://github.com/psahni/custom_seed.git'
 gem 'url_field_formatter', :git => 'https://github.com/psahni/url_field_formatter.git'
 
+
+gem 'cache_digests'
 
 
 ######################################################################################
