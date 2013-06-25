@@ -11,7 +11,7 @@ group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'uglifier'
-  gem "ejs", '1.1.1', :require => "ejs" # is a ruby port of underscore templates. Think of it like ERB for javascript. 
+  gem "ejs", '1.1.1', :require => "ejs" # is a ruby port of uxnderscore templates. Think of it like ERB for javascript.
 end
 
 group :development do

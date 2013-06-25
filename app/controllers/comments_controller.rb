@@ -4,7 +4,6 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.build(params[:comment])
       if @comment.save
-        expire_fragment("article_#{@article.id}_comments")
         render :json => { :notice => "Comment Has Been Created Successfully", :html => html_formatted_comment }
       else
         logger.info @comment.errors.inspect

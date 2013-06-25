@@ -6,6 +6,6 @@ class Article < ActiveRecord::Base
   validates :title, :body, :presence => true
 
   def to_param
-    "#{id}-#{title}"
+    "#{id}-#{title.gsub(/[\s]+/, '-')}"
   end
 end

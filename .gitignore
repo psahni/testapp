@@ -3,3 +3,8 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+public/articles.html
+.idea/*
+.idea/*/*
+.idea/*.*
+public/articles.html

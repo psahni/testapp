@@ -1,27 +1,30 @@
 <div class='page-template'>
+  <%=link_to "All Articles", [:articles], :style => "float:right"%>
+  <% cache @article  do %>
 
-    <div class='article-show'>
+     <div class='article-show'>
         <h1><%=@article.title%></h1>
         <h2><a href="<%=edit_article_path%>">Edit</a></h2>
         <%=@article.body%>
-    </div>
+     </div>
 
     <div class='comments'>
       <h3>Comments</h3>
-      <div class='form'>
-          <%=form_for @comment, :url => article_comments_path(@article), :remote => true do |form|%>
-            <div class='field'>
-                <%=form.text_area :message, :cols => 40, :rows => 4 %>
-            </div>
-            <%=form.submit "Save", :class => 'submit-button'%>
-          <% end %>
-      </div>
-      <% cache("article_#{ @article.id }_comments") do%>
       <div id='article_comments' style='background-color:salmon;'>
         <%=render :partial => 'comment', :collection => @article.comments%>
       </div>
-      <% end %>
+
     </div>
+
+   <% end %>
+  <div class='form'>
+    <%=form_for (@comment||=@article.comments.build), :url => article_comments_path(@article), :remote => true do |form|%>
+        <div class='field'>
+          <%=form.text_area :message, :cols => 40, :rows => 4 %>
+        </div>
+        <%=form.submit "Save", :class => 'submit-button'%>
+    <% end %>
+  </div>
 
 </div>
 
