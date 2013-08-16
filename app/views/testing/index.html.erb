@@ -6,45 +6,66 @@ $(function(){
 
 <%=javascript_include_tag 'colorbox/jquery.colorbox'%>
 
-<div class="container">
+<div class="container" style='margin-botton:15px;'>
   <div id="jst">
   </div>
 </div>
+<script type="text/javascript">
+    function htmlDecode(input){
+        var e = document.createElement('div');
+        e.innerHTML = input;
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+</script>
 
-      <script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>    
-      <div class='inxero-xapp' data-id='cn0lVgZV3K24' data-layout='classic'></div>    
+<script type="text/javascript">
+  console.log(htmlDecode("&lt;a href=\"http://local.inxero.com/social/share/showcase/207-travel-triangle/linkedin\"&gt;&lt;/a&gt;"))
+</script>
+
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='s2GKZPuKow43' data-layout='classic' data-header='true'></div>
 <!--
+
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-width='600' data-id='s2GKZPuKow43' data-layout='classic'></div>
+-->
+<!---
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='cn0lVgZV3K24' data-layout='classic'></div>
+
+
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='3o0SboqE0e134' data-thumbnail='medium' data-layout='blog' data-border='true' data-content='4'></div>
+
+
   <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDk4czNIRGxnSm55SXI0UVRtRmE2a1E6MQ" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 -->
- 
-<!-- 
+
+<!--
   Right Panel Xapp
-  
-  
-<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>    
-<div class='inxero-xapp' data-id='U3KmLdR0F9121' data-thumbnail='medium' data-layout='right-panel' data-border='true' data-content='4'></div>    
+
+
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='U3KmLdR0F9121' data-thumbnail='medium' data-layout='right-panel' data-border='true' data-content='4'></div>
 
 
 
--->     
+-->
 
-<!-- 
+<!--
   collage xapp
 
 
-<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>    
-<div class='inxero-xapp' data-id='0GBGfRQzYU122' data-thumbnail='medium' data-layout='blog' data-border='true' data-content='4'></div>    
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='0GBGfRQzYU122' data-thumbnail='medium' data-layout='blog' data-border='true' data-content='4'></div>
 -->
-<!-- Showcase Xapp 
-<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>  
-<div class='inxero-xapp' data-id='p9kYA93hnM125' data-layout='icon'></div>      
--->     
+<!-- Showcase Xapp
+<script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>
+<div class='inxero-xapp' data-id='p9kYA93hnM125' data-layout='icon'></div>
+-->
 
 <!--
-            <script type='text/javascript' async='async' src='http://staging.inxero.com/assets/inxo_xapp_loader.js'></script>    
-            <div class='inxero-xapp' data-id='wnABK25lni54' data-layout='classic'></div>    
+            <script type='text/javascript' async='async' src='http://staging.inxero.com/assets/inxo_xapp_loader.js'></script>
+            <div class='inxero-xapp' data-id='wnABK25lni54' data-layout='classic'></div>
   -->
-     
-     
- <script type='text/javascript' async='async' src='http://local.inxero.com/assets/inxo_xapp_loader.js'></script>    
- <div class='inxero-xapp' data-id='3o0SboqE0e134' data-thumbnail='medium' data-layout='blog' data-border='true' data-content='4'></div>    
+

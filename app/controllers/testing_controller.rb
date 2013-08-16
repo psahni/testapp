@@ -1,6 +1,8 @@
 class TestingController < ApplicationController
 
+
   layout 'templating', :only => [:handlebar]
+
   def index
   end
 

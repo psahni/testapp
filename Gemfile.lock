@@ -67,6 +67,7 @@ GEM
       execjs
     coffee-script-source (1.4.0)
     daemon_controller (1.1.2)
+    dalli (2.6.4)
     eco (1.0.0)
       coffee-script
       eco-source
@@ -88,6 +89,7 @@ GEM
       railties (>= 3.1.0, < 5.0)
       thor (~> 0.14)
     json (1.8.0)
+    kgio (2.8.0)
     libv8 (3.3.10.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -176,13 +178,16 @@ DEPENDENCIES
   cache_digests
   coffee-rails
   custom_seed!
+  dalli
   ejs (= 1.1.1)
   execjs
   foodie!
   jasminerice
   jquery-rails
+  kgio
   mysql2
   passenger
+  rack-cache
   rails (= 3.2.8)
   resque
   sass-rails

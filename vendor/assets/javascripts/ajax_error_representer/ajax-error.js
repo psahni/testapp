@@ -1,3 +1,13 @@
+/********
+ *
+ * Open Source
+ * Ajax Error Representator
+ *
+ * Written and Published By Prashant Sahni
+ * prashant.sahni5@gmail.com
+ *
+ * *********/
+
 AjaxErrorRepresenter = {},
 AjaxErrorHelper = {};
 

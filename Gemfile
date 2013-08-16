@@ -37,6 +37,13 @@ gem 'url_field_formatter', :git => 'https://github.com/psahni/url_field_formatte
 gem 'cache_digests'
 
 
+# Rails Cache Store
+gem 'rack-cache'   # sudo apt-get install memcached libmemcached-tools
+gem 'dalli'        # This is a recommended memcached client
+
+# faster kgio IO system:
+gem 'kgio'
+
 ######################################################################################
 
 # gem "squeel" #https://github.com/ernie/squeel #Active Record queries
