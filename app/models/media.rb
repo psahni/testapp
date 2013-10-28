@@ -1,4 +1,4 @@
-class Media < ActiveRecord::Base
+ class Media < ActiveRecord::Base
   
   
   has_many :articles

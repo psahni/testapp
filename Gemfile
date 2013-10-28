@@ -32,8 +32,6 @@ gem 'passenger'
 gem 'foodie',              :git => 'https://github.com/psahni/foodie.git'
 gem 'custom_seed',         :git => 'https://github.com/psahni/custom_seed.git'
 gem 'url_field_formatter', :git => 'https://github.com/psahni/url_field_formatter.git'
-
-
 gem 'cache_digests'
 
 
@@ -44,18 +42,26 @@ gem 'dalli'        # This is a recommended memcached client
 # faster kgio IO system:
 gem 'kgio'
 
-######################################################################################
 
-# gem "squeel" #https://github.com/ernie/squeel #Active Record queries
-# gem 'virtus' #https://github.com/solnic/virtus # Useful for virtuous attributes
-# gem "meta_search" #https://github.com/ernie/meta_search # 
-#http://patshaughnessy.net/2011/9/24/how-does-bundler-bundle
-#http://robots.thoughtbot.com/post/2729333530/fetching-source-index-for-http-rubygems-org
+#
+# TEST ENV.
+#
+group :test do
+  gem 'database_cleaner', "~> 0.9.1"
+  gem 'launchy', '~> 2.2.0'
+  gem 'webmock', '>= 1.8.0'
+  gem 'vcr', '~> 2.4.0'
+  gem 'rubyzip', '1.0.0' , :require => 'zip'
+  gem "capybara", '~> 2.0.3'
+  gem "poltergeist", '~> 1.1.0'
+  gem 'simplecov', require: false
+  gem 'spork', '~> 1.0rc'
+end
 
-##Mysql2 error
-#sudo apt-get install libmysqlclient-dev libmysql-ruby1.9 ruby1.9.1-dev
-#rvmsudo apt-get install libmysql-ruby libmysqlclient-dev
-#JqueryUjs
-#https://github.com/rails/jquery-ujs/wiki/External-articles
 
-######################################################################################
+group :development, :test do
+  gem 'rspec-rails', "~> 2.12.2"
+  gem 'factory_girl_rails', '~> 4.2.1'
+  gem 'rb-fsevent', '>= 0.9'
+  gem 'pry', '~> 0.9.12'
+end

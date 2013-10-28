@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
 
-  caches_page :index
+  #caches_page :index
 
   def index
     @articles = Article.all

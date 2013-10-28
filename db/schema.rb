@@ -50,12 +50,6 @@ ActiveRecord::Schema.define(:version => 20130527104302) do
     t.datetime "updated_at",       :null => false
   end
 
-  create_table "custom_seeds", :id => false, :force => true do |t|
-    t.string "version", :null => false
-  end
-
-  add_index "custom_seeds", ["version"], :name => "custom_seeds_version_index", :unique => true
-
   create_table "media", :force => true do |t|
     t.string   "title"
     t.integer  "type_of_media"

@@ -18,7 +18,7 @@ TestingApp::Application.configure do
 
   # Caching
 
-  config.action_controller.perform_caching = true
+  config.action_controller.perform_caching = false
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
 
@@ -50,10 +50,10 @@ TestingApp::Application.configure do
   # RACK CACHE CONFIGURATION
   #--------------------------------------------------------
 
-  client = Dalli::Client.new
-  config.action_dispatch.rack_cache = {
-      :metastore    => client,
-      :entitystore  => client,
-      :allow_reload => false
-  }
+#  client = Dalli::Client.new
+#  config.action_dispatch.rack_cache = {
+#      :metastore    => client,
+#      :entitystore  => client,
+#      :allow_reload => false
+#  }
 end
