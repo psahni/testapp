@@ -31,7 +31,7 @@ describe "Articles" do
     it 'should create article' do
       visit new_article_path
       expect(page).to have_content 'Title'
-      expect(page).to have_content 'Body'
+      expect(page).to have_content x``'Body'
       fill_in 'article_title', :with => 'My Day At Trantor'
       fill_in 'article_body',  :with => 'The day at trantor was awesome'
       click_button 'Save'

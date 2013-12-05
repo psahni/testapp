@@ -15,7 +15,7 @@ TestingApp::Application.routes.draw do
   
   match '/fbtesting' => "testing#fbtesting", :as => :testing
   match '/handlebar' => 'testing#handlebar', :as => :handlebar1
-  
+
   resources :messages
   resources :snippets 
   resources :teachers

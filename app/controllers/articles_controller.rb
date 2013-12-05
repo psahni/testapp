@@ -3,6 +3,8 @@ class ArticlesController < ApplicationController
   #caches_page :index
 
   def index
+  	dbconfig = ActiveRecord::Base.remove_connection
+  	ActiveRecord::Base.establish_connection(dbconfig)
     @articles = Article.all
   end
 
