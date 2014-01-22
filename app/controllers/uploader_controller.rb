@@ -7,6 +7,8 @@ class UploaderController < ApplicationController
   def create
    logger.info "========================================="
    logger.info " Yes Yes Yes"
+   logger.info params.inspect
+   logger.info "========================================="
   end
   
   def html5_uploader

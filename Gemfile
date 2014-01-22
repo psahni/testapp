@@ -39,7 +39,7 @@ gem 'cache_digests'
 gem 'rack-cache'   # sudo apt-get install memcached libmemcached-tools
 gem 'dalli'        # This is a recommended memcached client
 
-# faster kgio IO system:
+# faster kgio IO system:x
 gem 'kgio'
 
 
@@ -65,3 +65,9 @@ group :development, :test do
   gem 'rb-fsevent', '>= 0.9'
   gem 'pry', '~> 0.9.12'
 end
+
+# Image Upload
+gem 'carrierwave'
+gem 'rmagick'
+gem 'fog'
+gem 'carrierwave_direct'

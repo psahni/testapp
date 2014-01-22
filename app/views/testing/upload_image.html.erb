@@ -1,0 +1,24 @@
+<h2>Upload Image</h2>
+<div style='width: 700px;'>
+    <%= form_for @user, :url =>  upload_image_testing_index_path,:html => {:multipart => true} do |f| %>
+        <p>
+          <label>My Avatar</label>
+
+          <div style='float:left;width:500px;'>
+            <% if @user.avatar_is_image?%>
+            <%= image_tag(@user.avatar_url) if @user.avatar? %>
+            <% else %>
+                <video controls="" name="media"><source src="<%=@user.avatar_url%>" type="video/mp4"></video>
+            <% end %>
+
+          </div>
+
+         <div style='clear:both;'></div>
+          <%= f.file_field :avatar %>
+          <%= f.hidden_field :avatar_cache %>
+        </p>
+        <p>
+            <%=f.submit 'Save'%>
+        </p>
+    <% end %>
+</div>
