@@ -10,12 +10,14 @@ TestingApp::Application.routes.draw do
     get 'embed'
     get 'fbtesting'
     get 'handlerbar'
+    match 'upload_image', :via => [:post, :put, :get]
    end
   end
   
-  match '/fbtesting' => "testing#fbtesting", :as => :testing
-  match '/handlebar' => 'testing#handlebar', :as => :handlebar1
-  
+  match '/fbtesting' => "testing#fbtesting",   :as => :testing
+  match '/handlebar' => 'testing#handlebar',   :as => :handlebar1
+  match '/responsive' => 'testing#responsive', :as => :responsive
+
   resources :messages
   resources :snippets 
   resources :teachers

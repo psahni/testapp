@@ -11,9 +11,14 @@ class User < ActiveRecord::Base
 
   format_url_field :website
 
+  mount_uploader :avatar, AvatarUploader
 
   def suggested_books
     Book.where("category_id IN (?) AND id NOT IN (?)",  self.categories_of_books(:include => :books), self.books)
+  end
+
+  def avatar_is_image?
+    ['.jpg', 'jpeg', 'png'].include?(File.extname(avatar_url))
   end
 end
 
