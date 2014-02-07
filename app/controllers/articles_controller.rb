@@ -1,9 +1,12 @@
 class ArticlesController < ApplicationController
 
-  caches_page :index
+  #caches_page :index
 
   def index
     @articles = Article.all
+    logger.debug '======================='
+    logger.debug request.env['GATEWAY_INTERFACE']
+    logger.debug '======================='
   end
 
   def new

@@ -43,6 +43,7 @@ gem 'dalli'        # This is a recommended memcached client
 
 # faster kgio IO system:
 gem 'kgio'
+gem 'rack-mini-profiler'
 
 ######################################################################################
 
