@@ -71,3 +71,11 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'fog'
 gem 'carrierwave_direct'
+
+
+group :development do
+  gem 'meta_request'
+  gem 'friendly_id'
+#  gem "better_errors"
+#  gem 'binding_of_caller'
+end

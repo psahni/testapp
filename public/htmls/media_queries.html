@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+
+
+<!--		<link rel="stylesheet" 
+      media="screen and (max-width: 601px)" 
+      href="small.css">
+
+      <link rel="stylesheet" 
+      media="screen and (min-width: 1025px)" 
+      href="large.css">
+-->
+
+	<script>	
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			 
+ 			 document.write("<link rel='stylesheet' media='screen' href='small.css'>")
+		}
+		else{
+			//alert("Desktop");
+			 			 document.write("<link rel='stylesheet' media='screen' href='large.css'>")
+		}
+	</script>
+	</head>
+	
+	<body>
+		<h2>
+				I am Prashant Sahni			
+		</h2>
+	</body>
+
+</html>
+
+
+<!--
+	Good reference
+	http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-handheld-device-in-jquery
+-->
