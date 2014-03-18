@@ -7,6 +7,9 @@ class ArticlesController < ApplicationController
   	dbconfig = ActiveRecord::Base.remove_connection
   	ActiveRecord::Base.establish_connection(dbconfig)
     @articles = Article.all
+    logger.debug '======================='
+    logger.debug request.env['GATEWAY_INTERFACE']
+    logger.debug '======================='
   end
 
   def new
