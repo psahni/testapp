@@ -2,7 +2,7 @@ TestingApp::Application.routes.draw do
 
 
   root :to => 'testing#index'
-
+	match '/fontawesome' => 'testing#fontawesome'
   
   resources :testing, :controller => :testing do
    collection do

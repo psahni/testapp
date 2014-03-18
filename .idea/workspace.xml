@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e76f84a-dd21-4508-9322-304320a027fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/testing/error_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/testing/test.html" afterPath="$PROJECT_DIR$/app/views/testing/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testapp.iml" afterPath="$PROJECT_DIR$/.idea/testapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/testing_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/testing_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1393587810089" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1395147345652" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/views/messages/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1367916523244" ignored="false" />
     <file path="/index.html.erb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1389260206487" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/customized_showcase_request.rb" changelist="0e76f84a-dd21-4508-9322-304320a027fd" time="1369140478616" ignored="false" />
@@ -455,7 +447,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="1585" selection-end="1634" vertical-scroll-proportion="0.7955707">
+            <state line="72" column="0" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.846678">
               <folding />
             </state>
           </provider>
@@ -704,16 +696,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="98" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1005" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1005" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1005" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="96" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="90" />
     <property name="GoToClass.includeJavaFiles" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="90" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: testapp">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -1107,9 +1099,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="65" selection-start="478" selection-end="478" vertical-scroll-proportion="0.024509804">
-          <folding />
-        </state>
+        <state line="18" column="65" selection-start="478" selection-end="478" vertical-scroll-proportion="0.024509804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/testing/error_page.html">
@@ -1142,18 +1132,9 @@
         <state line="15" column="30" selection-start="663" selection-end="663" vertical-scroll-proportion="0.38265306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140228074239_create_friendly_id_slugs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="293" selection-end="293" vertical-scroll-proportion="0.19607843">
-          <folding />
-        </state>
+        <state line="8" column="52" selection-start="293" selection-end="293" vertical-scroll-proportion="0.19607843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140228072417_add_slug_to_articles.rb">
@@ -1191,9 +1172,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="53" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="1585" selection-end="1634" vertical-scroll-proportion="0.7955707">
+        <state line="72" column="0" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.846678">
           <folding />
         </state>
       </provider>

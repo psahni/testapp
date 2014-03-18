@@ -18,6 +18,10 @@ class TestingController < ApplicationController
 
   def handlerbar
   end
+  
+  def fontawesome
+  	render :template => 'testing/font.html.erb'
+  end
 
   def upload_image
     @user = User.first
