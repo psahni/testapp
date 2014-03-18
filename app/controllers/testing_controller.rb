@@ -4,6 +4,9 @@ class TestingController < ApplicationController
   layout 'templating', :only => [:handlebar]
 
   def index
+    #awesome_log(request.path, :debug)
+    Rails.logger.info "bhai bhai bhai"
+    Rails.logger.debug "bhai bhai bhai"
   end
 
   def test
