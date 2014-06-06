@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animate Text</title>
+    <script src='/lib/jquery.js'></script>
+    <script src='/lib/jquery.transit.js'></script>
+    <style type="text/css" media="screen">
+      #container{
+        width: 80%;
+        margin: 5% 10%;
+        background: #F1F1;
+      }
+      
+      #text{
+        font-size: 38px;
+      }
+    </style>
+    
+  </head>
+  <body id="container">
+    <div id='text'>
+     jQueryAnimate
+    </div>
+  </body>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      (function($){
+        $.fn.animateCharacters = function(){
+          var $this = $(this);
+          var text = $this.text().trim();
+          text = text.split("");
+          $this.html('');
+          for(i=0;i < text.length;i++){
+            word = text[i];
+            $word = $("<span/>").html(word);
+            $this.append($word);
+
+          } 
+          letters = $this.find('span');
+          letters.css({
+	  				opacity: 0
+  				});
+  				var counter = 0;
+  				letters.each(function() {
+  				  var first_span = $(this);
+  				  first_span.delay(2000).transition({opacity: 1}, 'slow');
+			  	});
+        }
+      }(jQuery));
+      $("#text").animateCharacters()
+    });
+
+  </script>
+
+</html>

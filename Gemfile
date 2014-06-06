@@ -52,7 +52,7 @@ group :test do
   gem 'launchy', '~> 2.2.0'
   gem 'webmock', '>= 1.8.0'
   gem 'vcr', '~> 2.4.0'
-  gem 'rubyzip', '1.0.0' , :require => 'zip'
+  gem 'rubyzip',	 '1.0.0' , :require => 'zip'
   gem "capybara", '~> 2.0.3'
   gem "poltergeist", '~> 1.1.0'
   gem 'simplecov', require: false

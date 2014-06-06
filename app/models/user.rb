@@ -13,6 +13,8 @@ class User < ActiveRecord::Base
 
   mount_uploader :avatar, AvatarUploader
 
+  attr_accessible :username, :email
+
   def suggested_books
     Book.where("category_id IN (?) AND id NOT IN (?)",  self.categories_of_books(:include => :books), self.books)
   end

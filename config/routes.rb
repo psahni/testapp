@@ -31,7 +31,8 @@ TestingApp::Application.routes.draw do
     resources :comments
   end
   mount Resque::Server, :at => "/resque"
-    
+
+
   # PATH PREFIX
   # config/routes.rb
   
@@ -39,6 +40,12 @@ TestingApp::Application.routes.draw do
     resources :books
   end
 
+	##
+	## CAN API TESTING
+	##
+	get '/merchants', :to => 'testing#merchants'
+	get '/merchants/:id/docs', :to => 'testing#merchants'
+  get '/merchants/:id',      :to => 'testing#retrieve_merchants'
 end
 
 
