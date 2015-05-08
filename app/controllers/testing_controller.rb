@@ -5,8 +5,12 @@ class TestingController < ApplicationController
 
   def index
     #awesome_log(request.path, :debug)
-    Rails.logger.info "bhai bhai bhai"
-    Rails.logger.debug "bhai bhai bhai"
+    #Rails.logger.info "bhai bhai bhai"
+    #Rails.logger.debug "bhai bhai bhai"
+    Rails.logger.info "*****************************"
+    Rails.logger.debug cookies['username'].inspect
+    Rails.logger.info "*****************************"
+    cookies['movies'] = "Pk, DDLJ, RangDeBasanti, SaddiGali" #This will be read by the user
   end
 
   def test
@@ -66,5 +70,11 @@ class TestingController < ApplicationController
 
   def responsive
     render :layout => false
+  end
+  
+  def download_file
+    data = File.read(Rails.public_path + "/mgirl.jpg", :filename => 'mgirl.jpg', :type => 'application/jpg')
+    #send_file(Rails.public_path + "/mgirl.jpg", :filename => 'mgirl.jpg', :type => 'application/jpg')
+    send_data(data, :filename => 'mygirl.jpg')
   end
 end
