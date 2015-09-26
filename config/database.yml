@@ -14,18 +14,5 @@ development:
   reconnect: false
   database: testing_app_development
   pool: 5
-  username: root
+  username: prashant
   password: root
-  socket: /var/run/mysqld/mysqld.sock
-
-
-test:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: testing_app_testing
-  pool: 5
-  username: root
-  password: root
-  socket: /var/run/mysqld/mysqld.sock
-

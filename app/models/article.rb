@@ -5,10 +5,10 @@ class Article < ActiveRecord::Base
 
   #validates :title, :body, :presence => true
 
-  extend FriendlyId
-  friendly_id :title, use: [:slugged, :history]
+  #extend FriendlyId
+  #friendly_id :title, use: [:slugged, :history]
 
-  #def to_param
-  #  "#{id}-#{title.gsub(/[\s]+/, '-')}"
-  #end
+  def to_param
+    "#{id}-#{title.gsub(/[\s]+/, '-')}"
+  end
 end
